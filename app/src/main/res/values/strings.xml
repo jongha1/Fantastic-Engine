@@ -1,6 +1,14 @@
 <resources>
     <string name="app_name">TeamProject</string>
     <string name="btn1">다음</string>
+    <string name="btn5">돌아가기</string>
     <string name="title">제목 미정</string>
     <string name="text1">이 게임은 실화를 바탕으로 제작된 픽션이며,일부 잔인하고 폭력적인 묘사가 있을 수 있습니다.</string>
+    <string name="text2">오래된 중앙아프리카 공화국 내전을 취재하러 온은 시민들을 취재하다 혼자 떨어져 폭발물에 휩쓸렸다.눈을 떠 보니, 좁고 고름 냄새로 퀴퀴한 감옥 안이었다혹시나 하는 마음에 몸을 움직여 봤지만, 뜻대로 움직여 주지 않는다.주위를 둘러 보니 여러 명의 사람이 갇혀 있다. 은 방안을 둘러본다.</string>
+    <string name="btn2">쇠창살 사이</string>
+    <string name="btn3">의 주머니</string>
+    <string name="btn4">갇힌 무리들</string>
+    <string name="text3">쇠창살 사이를 바라보니 반군의 유니폼과 총을 들고 있는 군인들이 보인다. (hp 깎이는 행동)</string>
+    <string name="text4">펜과 수첩들, 핸드폰이 전부 사라져 있다. 대사관 번호가 적힌 쪽지가 보인다. 머리가 아프다. (번호 쪽지)</string>
+    <string name="text5">갇힌 무리들을 바라보니 절망에 찬 눈길만 돌아온다.</string>
 </resources>
