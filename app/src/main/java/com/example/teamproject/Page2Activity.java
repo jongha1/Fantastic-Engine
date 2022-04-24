@@ -6,7 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import androidx.appcompat.app.AppCompatActivity;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Page2Activity extends Activity {
 
@@ -19,15 +20,30 @@ public class Page2Activity extends Activity {
         setContentView(R.layout.page2);
 
         btn_sub1 = findViewById(R.id.btn4);
+        btn_sub2 = findViewById(R.id.btn5);
+        btn_sub3 = findViewById(R.id.btn6);
+
+        List<String> story = new ArrayList<>();
+        story.add("쇠창살 사이");
+        story.add("의 주머니");
+        story.add("갇힌 무리들");
+        int r =(int)(Math.random()*3);
+        btn_sub1.setText(story.get(r));
+        story.remove(r);
+        int r1 =(int)(Math.random()*2);
+        btn_sub2.setText(story.get(r1));
+        story.remove(r1);
+        int r2 =(int)(Math.random()*1);
+        btn_sub3.setText(story.get(r2));
+
         btn_sub1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),Page3Activity.class);
+                Intent intent = new Intent(getApplicationContext(), Page3Activity.class);
                 startActivity(intent);
             }
         });
 
-        btn_sub2 = findViewById(R.id.btn5);
         btn_sub2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -35,7 +51,7 @@ public class Page2Activity extends Activity {
                 startActivity(intent);
             }
         });
-        btn_sub3 = findViewById(R.id.btn6);
+
         btn_sub3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
