@@ -24,9 +24,11 @@ public class Page2Activity extends Activity {
         btn_sub3 = findViewById(R.id.btn6);
 
         List<String> story = new ArrayList<>();
-        story.add("쇠창살 사이");
-        story.add("의 주머니");
-        story.add("갇힌 무리들");
+
+        story.add(getResources().getString(R.string.btn2));
+        story.add(getResources().getString(R.string.btn3));
+        story.add(getResources().getString(R.string.btn4));
+
         int r =(int)(Math.random()*3);
         btn_sub1.setText(story.get(r));
         story.remove(r);
