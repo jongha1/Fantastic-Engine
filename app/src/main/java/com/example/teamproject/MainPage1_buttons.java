@@ -9,7 +9,7 @@ import android.widget.Button;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Page2Activity extends Activity {
+public class MainPage1_buttons extends Activity {
 
     Button btn_sub1;
     Button btn_sub2;
@@ -17,7 +17,7 @@ public class Page2Activity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.page2);
+        setContentView(R.layout.mainpage1_buttons);
 
         btn_sub1 = findViewById(R.id.btn4);
         btn_sub2 = findViewById(R.id.btn5);
@@ -41,7 +41,7 @@ public class Page2Activity extends Activity {
         btn_sub1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Page3Activity.class);
+                Intent intent = new Intent(getApplicationContext(), MainPage1_button1.class);
                 startActivity(intent);
             }
         });
@@ -49,7 +49,7 @@ public class Page2Activity extends Activity {
         btn_sub2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),Page4Activity.class);
+                Intent intent = new Intent(getApplicationContext(), MainPage1_button2.class);
                 startActivity(intent);
             }
         });
@@ -57,7 +57,7 @@ public class Page2Activity extends Activity {
         btn_sub3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),Page5Activity.class);
+                Intent intent = new Intent(getApplicationContext(), MainPage1_button3.class);
                 startActivity(intent);
             }
         });

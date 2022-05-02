@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TeamProject">
         <activity
-            android:name=".MainActivity"
+            android:name=".TitlePage"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,12 +18,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SubActivity"/>
-        <activity android:name=".Page1Activity"/>
-        <activity android:name=".Page2Activity"/>
-        <activity android:name=".Page3Activity"/>
-        <activity android:name=".Page4Activity"/>
-        <activity android:name=".Page5Activity"/>
+        <activity android:name=".StartPage"/>
+        <activity android:name=".MainPage1"/>
+        <activity android:name=".MainPage1_buttons"/>
+        <activity android:name=".MainPage1_button1"/>
+        <activity android:name=".MainPage1_button2"/>
+        <activity android:name=".MainPage1_button3"/>
     </application>
 
 </manifest>

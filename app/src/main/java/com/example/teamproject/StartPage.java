@@ -6,24 +6,22 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.teamproject.Page1Activity;
-import com.example.teamproject.R;
-
-public class Page4Activity extends Activity {
+public class StartPage extends Activity {
 
     Button btn_sub;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.page4);
+        setContentView(R.layout.startpage);
 
-        btn_sub = findViewById(R.id.btn3);
+        btn_sub = findViewById(R.id.btn2);
 
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                finish();
+                Intent intent = new Intent(getApplicationContext(), MainPage1.class);
+                startActivity(intent);
             }
         });
     }

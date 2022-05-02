@@ -1,22 +1,18 @@
 package com.example.teamproject;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.teamproject.Page1Activity;
-import com.example.teamproject.R;
-
-public class Page5Activity extends Activity {
+public class MainPage1_button2 extends Activity {
 
     Button btn_sub;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.page5);
+        setContentView(R.layout.mainpage1_button2);
 
         btn_sub = findViewById(R.id.btn3);
 

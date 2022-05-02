@@ -6,26 +6,24 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-
-import android.os.Bundle;
-
-public class MainActivity extends AppCompatActivity {
+public class TitlePage extends AppCompatActivity {
 
     Button btn_main;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.titlepage);
 
         btn_main = findViewById(R.id.btn1);
 
         btn_main.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),SubActivity.class);
+                Intent intent = new Intent(getApplicationContext(), StartPage.class);
                 startActivity(intent);
             }
         });
     }
 }
+
