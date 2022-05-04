@@ -24,6 +24,16 @@
         <activity android:name=".MainPage1_button1"/>
         <activity android:name=".MainPage1_button2"/>
         <activity android:name=".MainPage1_button3"/>
+        <activity android:name=".MainPage2"/>
+        <activity android:name=".MainPage2_buttons"/>
+        <activity android:name=".MainPage2_button1"/>
+        <activity android:name=".MainPage2_button2"/>
+        <activity android:name=".MainPage3"/>
+        <activity android:name=".MainPage3_button1"/>
+        <activity android:name=".MainPage3_button2"/>
+        <activity android:name=".MainPage3_button2_1"/>
+        <activity android:name=".MainPage3_button2_2"/>
+        <activity android:name=".MainPage3_button2_3"/>
     </application>
 
 </manifest>

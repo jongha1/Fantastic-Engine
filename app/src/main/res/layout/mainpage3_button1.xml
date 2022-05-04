@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/gray"
-    tools:ignore="MissingDefaultResource">
+    android:background="@color/gray">
 
     <ImageView
         android:layout_width="match_parent"
@@ -19,22 +17,22 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text2"
+        android:text="@string/text10"
         android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="@color/black"
-        android:layout_margin="20dp"
+        android:layout_margin="30dp"
         />
 
     <Button
         android:id="@+id/btn3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/btn1"
+        android:text="@string/btn5"
         android:backgroundTint="#FFFFFF"
         android:textColor="@color/black"
         android:layout_gravity="center"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="10dp"
         />
 
 

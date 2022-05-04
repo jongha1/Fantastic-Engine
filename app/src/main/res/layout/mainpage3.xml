@@ -19,22 +19,36 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text2"
+        android:text="@string/text9"
         android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="@color/black"
-        android:layout_margin="20dp"
+        android:layout_margin="50dp"
         />
 
     <Button
-        android:id="@+id/btn3"
-        android:layout_width="wrap_content"
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn1"
+        android:text="@string/btn8"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
         android:backgroundTint="#FFFFFF"
         android:textColor="@color/black"
         android:layout_gravity="center"
-        android:layout_marginTop="60dp"
+        />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn9"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
         />
 
 
