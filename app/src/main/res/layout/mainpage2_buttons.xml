@@ -17,10 +17,10 @@
 
 
     <Button
-        android:id="@+id/btn4"
+        android:id="@+id/btn1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn6"
+        android:text="@string/mp2_btn1"
         android:layout_marginTop="100dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
@@ -30,10 +30,10 @@
         />
 
     <Button
-        android:id="@+id/btn5"
+        android:id="@+id/btn2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn7"
+        android:text="@string/mp2_btn2"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"

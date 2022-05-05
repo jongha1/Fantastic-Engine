@@ -15,7 +15,7 @@ public class MainPage2 extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainpage2);
 
-        btn_sub2 = findViewById(R.id.btn3);
+        btn_sub2 = findViewById(R.id.btn1);
 
         btn_sub2.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -19,15 +19,15 @@ public class MainPage1_buttons extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainpage1_buttons);
 
-        btn_sub1 = findViewById(R.id.btn4);
-        btn_sub2 = findViewById(R.id.btn5);
-        btn_sub3 = findViewById(R.id.btn6);
+        btn_sub1 = findViewById(R.id.btn1);
+        btn_sub2 = findViewById(R.id.btn2);
+        btn_sub3 = findViewById(R.id.btn3);
 
         List<String> story = new ArrayList<>();
 
-        story.add(getResources().getString(R.string.btn2));
-        story.add(getResources().getString(R.string.btn3));
-        story.add(getResources().getString(R.string.btn4));
+        story.add(getResources().getString(R.string.mp1_btn1));
+        story.add(getResources().getString(R.string.mp1_btn2));
+        story.add(getResources().getString(R.string.mp1_btn3));
 
         int r =(int)(Math.random()*3);
         btn_sub1.setText(story.get(r));

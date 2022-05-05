@@ -19,7 +19,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text2"
+        android:text="@string/mp1_text1"
         android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="@color/black"
@@ -27,7 +27,7 @@
         />
 
     <Button
-        android:id="@+id/btn3"
+        android:id="@+id/btn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btn1"

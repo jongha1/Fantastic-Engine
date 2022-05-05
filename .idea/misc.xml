@@ -10,12 +10,12 @@
         <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage1_button1.xml" value="0.23641304347826086" />
         <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage1_button2.xml" value="0.23641304347826086" />
         <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage1_button3.xml" value="0.23641304347826086" />
-        <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage1_buttons.xml" value="0.5667752442996743" />
+        <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage1_buttons.xml" value="0.33" />
         <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage2.xml" value="0.3359375" />
         <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage2_button1.xml" value="0.23641304347826086" />
         <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage2_button2.xml" value="0.23641304347826086" />
         <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage2_buttons.xml" value="0.23641304347826086" />
-        <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage3.xml" value="0.23641304347826086" />
+        <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage3.xml" value="0.33" />
         <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage3_button1.xml" value="0.23641304347826086" />
         <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage3_button2.xml" value="0.23641304347826086" />
         <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage3_button2_1.xml" value="0.23641304347826086" />
@@ -41,7 +41,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.23641304347826086" />
+        <option name="scale" value="0.33" />
       </ProjectState>
     </option>
   </component>

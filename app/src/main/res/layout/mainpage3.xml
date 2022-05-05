@@ -19,7 +19,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text9"
+        android:text="@string/mp3_text1"
         android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="@color/black"
@@ -27,10 +27,10 @@
         />
 
     <Button
-        android:id="@+id/btn4"
+        android:id="@+id/btn1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn8"
+        android:text="@string/mp3_btn1"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:backgroundTint="#FFFFFF"
@@ -39,10 +39,10 @@
         />
 
     <Button
-        android:id="@+id/btn5"
+        android:id="@+id/btn2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn9"
+        android:text="@string/mp3_btn2"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"

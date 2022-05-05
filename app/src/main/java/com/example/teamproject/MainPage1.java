@@ -8,16 +8,16 @@ import android.widget.Button;
 
 public class MainPage1 extends Activity {
 
-    Button btn_sub2;
+    Button btn_sub;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainpage1);
 
-        btn_sub2 = findViewById(R.id.btn3);
+        btn_sub = findViewById(R.id.btn1);
 
-        btn_sub2.setOnClickListener(new View.OnClickListener() {
+        btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), MainPage1_buttons.class);

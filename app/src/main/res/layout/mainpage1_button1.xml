@@ -17,7 +17,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/text3"
+        android:text="@string/mp1_text2"
         android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="@color/black"
@@ -28,10 +28,10 @@
         />
 
     <Button
-        android:id="@+id/btn3"
+        android:id="@+id/btn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/btn5"
+        android:text="@string/btn2"
         android:backgroundTint="#FFFFFF"
         android:textColor="@color/black"
         android:layout_gravity="center"
