@@ -19,8 +19,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/mp1_text1"
-        android:textSize="20sp"
+        android:text="@string/mp6_text1"
+        android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="@color/black"
         android:layout_margin="20dp"

@@ -19,7 +19,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/mp1_text1"
+        android:text="@string/mp12_text4"
         android:textSize="20sp"
         android:textStyle="bold"
         android:textColor="@color/black"

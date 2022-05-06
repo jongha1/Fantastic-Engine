@@ -3,32 +3,108 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/MainPage1.xml" value="0.23641304347826086" />
         <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainPage1.xml" value="0.23641304347826086" />
-        <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage1.xml" value="0.23641304347826086" />
-        <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage1_button1.xml" value="0.23641304347826086" />
-        <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage1_button2.xml" value="0.23641304347826086" />
-        <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage1_button3.xml" value="0.23641304347826086" />
-        <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage1_buttons.xml" value="0.33" />
-        <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage2.xml" value="0.3359375" />
-        <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage2_button1.xml" value="0.23641304347826086" />
-        <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage2_button2.xml" value="0.23641304347826086" />
-        <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage2_buttons.xml" value="0.23641304347826086" />
-        <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage3.xml" value="0.33" />
-        <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage3_button1.xml" value="0.23641304347826086" />
-        <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage3_button2.xml" value="0.23641304347826086" />
-        <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage3_button2_1.xml" value="0.23641304347826086" />
-        <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage3_button2_2.xml" value="0.23641304347826086" />
-        <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/mainpage3_button2_3.xml" value="0.23641304347826086" />
-        <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/page1.xml" value="0.25" />
+        <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/page1.xml" value="0.21014492753623187" />
         <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/page2.xml" value="0.31875" />
-        <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/page3.xml" value="0.25" />
+        <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/page3.xml" value="0.3359375" />
         <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/page4.xml" value="0.31875" />
         <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/page5.xml" value="0.31875" />
-        <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/startpage.xml" value="0.23641304347826086" />
         <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/sub.xml" value="0.25" />
-        <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/titlepage.xml" value="0.23641304347826086" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/deathending1.xml" value="0.3614583333333333" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage010.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage010_1.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage010_2.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage011.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage011_1.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage011_button1.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage011_button2.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage011_button3.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage011_buttons.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage012.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage012_1.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage012_2.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage012_3.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage013.xml" value="0.3614583333333333" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage1.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage10.xml" value="0.3614583333333333" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage1_button1.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage1_button2.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage1_button3.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage1_buttons.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage2.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage2_button1.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage2_button2.xml" value="0.3614583333333333" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage2_buttons.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage3.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage3_button1.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage3_button2.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage3_button2_1.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage3_button2_2.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage3_button2_3.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage4.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage4_button1_1.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage4_button1_2.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage4_button2_1.xml" value="0.3614583333333333" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage4_button2_1_1.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage4_button2_1_2.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage4_button2_2.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage4_button2_3.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage4_button2_4.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage4_button2_5.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage4_button3.xml" value="0.3614583333333333" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage4_button3_1.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage4_button3_2.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage4_buttons.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage4_buttons1.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage4_buttons2.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage5.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage5_1.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage5_2.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage5_3.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage5_4.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage5_5.xml" value="0.3614583333333333" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage5_6.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage5_7.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage5_8.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage6.xml" value="0.33" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage6_1.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage6_2_1.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage6_2_2.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage6_buttons.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage6_buttons1.xml" value="0.33" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage6_buttons2.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage7.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage7_1.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage7_2.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage7_3.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage7_4.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage7_5.xml" value="0.3614583333333333" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage7_button1.xml" value="0.3614583333333333" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage7_buttons1.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage7_buttons1_1.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage7_buttons1_2.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage7_buttons1_3.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage7_buttons2.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage7_buttons2_1.xml" value="0.3614583333333333" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage7_buttons2_2.xml" value="0.3614583333333333" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage8.xml" value="0.3614583333333333" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage8_1.xml" value="0.3614583333333333" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage8_button1.xml" value="0.3614583333333333" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage8_button2.xml" value="0.3614583333333333" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage8_buttons.xml" value="0.3614583333333333" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage9.xml" value="0.3614583333333333" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage9_1.xml" value="0.3614583333333333" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage9_button1.xml" value="0.3614583333333333" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage9_button2.xml" value="0.3614583333333333" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/mainpage9_buttons.xml" value="0.3614583333333333" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/page1.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/page2.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/page3.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/startpage.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/layout/titlepage.xml" value="0.36614583333333334" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.338" />
+        <entry key="..\:/hejin/Fantastic-Engine/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.338" />
       </map>
     </option>
   </component>
@@ -37,12 +113,5 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
-  </component>
-  <component name="VisualizationToolProject">
-    <option name="state">
-      <ProjectState>
-        <option name="scale" value="0.33" />
-      </ProjectState>
-    </option>
   </component>
 </project>
