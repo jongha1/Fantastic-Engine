@@ -6,21 +6,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainPage6 extends Activity {
+public class MainPage7_buttons2_1 extends Activity {
 
     Button btn_sub;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mainpage6);
+        setContentView(R.layout.mainpage7_buttons2_1);
 
         btn_sub = findViewById(R.id.btn1);
 
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), MainPage6_1.class);
+                Intent intent = new Intent(getApplicationContext(), MainPage8.class);
                 startActivity(intent);
             }
         });
