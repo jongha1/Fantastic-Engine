@@ -72,6 +72,10 @@
         <activity android:name=".MainPage7_buttons2_1" />
         <activity android:name=".MainPage7_buttons2_2" />
         <activity android:name=".MainPage8" />
+        <activity android:name=".MainPage8_1" />
+        <activity android:name=".MainPage8_buttons" />
+        <activity android:name=".MainPage8_buttons1" />
+        <activity android:name=".MainPage8_buttons2" />
 
     </application>
 
