@@ -6,25 +6,24 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class  MainPage3_button2 extends Activity {
+public class MainPage4_button3 extends Activity {
 
     Button btn_sub1;
     Button btn_sub2;
-    Button btn_sub3;
+
 
     @Override
-    protected void onCreate(Bundle savedInstanceState){
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mainpage3_button2);
+        setContentView(R.layout.mainpage4_button3);
 
         btn_sub1 = findViewById(R.id.btn1);
         btn_sub2 = findViewById(R.id.btn2);
-        btn_sub3 = findViewById(R.id.btn3);
 
         btn_sub1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), MainPage3_button2_1.class);
+                Intent intent = new Intent(getApplicationContext(), MainPage4_button3_1.class);
                 startActivity(intent);
             }
         });
@@ -32,17 +31,10 @@ public class  MainPage3_button2 extends Activity {
         btn_sub2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), MainPage3_button2_2.class);
+                Intent intent = new Intent(getApplicationContext(), MainPage5.class);
                 startActivity(intent);
             }
         });
 
-        btn_sub3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), MainPage3_button2_3.class);
-                startActivity(intent);
-            }
-        });
     }
 }

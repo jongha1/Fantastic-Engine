@@ -34,6 +34,25 @@
         <activity android:name=".MainPage3_button2_1"/>
         <activity android:name=".MainPage3_button2_2"/>
         <activity android:name=".MainPage3_button2_3"/>
+        <activity android:name=".MainPage4"/>
+        <activity android:name=".MainPage4_button1_1"/>
+        <activity android:name=".MainPage4_button2_1"/>
+        <activity android:name=".MainPage4_button2_1_1"/>
+        <activity android:name=".MainPage4_button2_1_2"/>
+        <activity android:name=".MainPage4_button2_2"/>
+        <activity android:name=".MainPage4_button3"/>
+        <activity android:name=".MainPage4_button3_1"/>
+        <activity android:name=".MainPage4_buttons1"/>
+        <activity android:name=".MainPage4_buttons2"/>
+        <activity android:name=".MainPage5"/>
+        <activity android:name=".MainPage5_1"/>
+        <activity android:name=".MainPage5_2"/>
+        <activity android:name=".MainPage5_3"/>
+        <activity android:name=".MainPage5_4"/>
+        <activity android:name=".MainPage5_5"/>
+        <activity android:name=".MainPage5_6"/>
+        <activity android:name=".MainPage5_7"/>
+        <activity android:name=".MainPage6"/>
     </application>
 
 </manifest>

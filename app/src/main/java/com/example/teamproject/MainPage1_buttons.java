@@ -38,6 +38,7 @@ public class MainPage1_buttons extends Activity {
         int r2 =(int)(Math.random()*1);
         btn_sub3.setText(story.get(r2));
 
+
         btn_sub1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
