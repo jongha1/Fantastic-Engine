@@ -13,7 +13,7 @@ public class MainPage5_7 extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mainpage5_7);
+        setContentView(R.layout.mainpage5_4);
 
         btn_sub = findViewById(R.id.btn1);
 

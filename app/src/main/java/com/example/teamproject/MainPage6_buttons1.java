@@ -6,9 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class MainPage6_buttons1 extends Activity {
 
     Button btn_sub1;
@@ -17,7 +14,7 @@ public class MainPage6_buttons1 extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mainpage6_buttons1);
+        setContentView(R.layout.mainpage6_buttons);
 
         btn_sub1 = findViewById(R.id.btn1);
         btn_sub2 = findViewById(R.id.btn2);

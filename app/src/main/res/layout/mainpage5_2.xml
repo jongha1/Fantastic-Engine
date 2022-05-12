@@ -19,11 +19,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/mp5_text3"
+        android:text="@string/mp5_text2"
         android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="@color/black"
-        android:layout_margin="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_margin="50dp"
         />
 
     <Button
