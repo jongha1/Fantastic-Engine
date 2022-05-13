@@ -30,7 +30,7 @@ public class MainPage6_buttons1 extends Activity {
         btn_sub2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), MainPage6_buttons2.class);
+                Intent intent = new Intent(getApplicationContext(), MainPage7.class);
                 startActivity(intent);
             }
         });
