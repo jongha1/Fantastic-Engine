@@ -14,8 +14,9 @@ public class MainPage7_buttons1 extends Activity {
     Button btn_sub1;
     Button btn_sub2;
     Button btn_sub3;
+
     @Override
-    protected void onCreate(Bundle savedInstanceState){
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainpage7_buttons1);
 
@@ -36,14 +37,6 @@ public class MainPage7_buttons1 extends Activity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), MainPage7_buttons1_2.class);
-                startActivity(intent);
-            }
-        });
-
-        btn_sub3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), MainPage7_buttons1_3.class);
                 startActivity(intent);
             }
         });

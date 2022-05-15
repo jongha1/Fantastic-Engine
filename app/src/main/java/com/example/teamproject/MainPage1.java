@@ -11,7 +11,7 @@ public class MainPage1 extends Activity {
     Button btn_sub;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState){
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainpage1);
 
@@ -25,5 +25,10 @@ public class MainPage1 extends Activity {
             }
         });
 
+
+    }
+    @Override
+    public void onBackPressed() {
+        //super.onBackPressed();
     }
 }
