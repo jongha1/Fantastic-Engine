@@ -61,7 +61,6 @@
         <activity android:name=".MainPage7_buttons1" />
         <activity android:name=".MainPage7_buttons1_1" />
         <activity android:name=".MainPage7_buttons1_2" />
-        <activity android:name=".MainPage7_buttons1_3" />
         <activity android:name=".MainPage7_buttons2" />
         <activity android:name=".MainPage7_buttons2_1" />
         <activity android:name=".MainPage7_buttons2_2" />
