@@ -11,9 +11,28 @@
     <string name="mp1_text2">쇠창살 사이를 바라보니 반군의 유니폼과 총을 들고 있는 군인들이 보인다. (hp 깎이는 행동)</string>
     <string name="mp1_text3">펜과 수첩들, 핸드폰이 전부 사라져 있다. 대사관 번호가 적힌 쪽지가 보인다. 머리가 아프다. (번호 쪽지)</string>
     <string name="mp1_text4">갇힌 무리들을 바라보니 절망에 찬 눈길만 돌아온다.</string>
+
     <string name="mp1_btn1">쇠창살 사이</string>
     <string name="mp1_btn2">\'이름\'의 주머니</string>
     <string name="mp1_btn3">갇힌 무리들</string>
+
+    <string-array name="mp1_rdbtn1">
+        <item>쇠창살 사이</item>
+        <item>쇠창살 사이2</item>
+        <item>쇠창살 사이3</item>
+    </string-array>
+
+    <string-array name="mp1_rdbtn2">
+        <item>\'이름\'의 주머니</item>
+        <item>\'이름\'의 주머니2</item>
+        <item>\'이름\'의 주머니3</item>
+    </string-array>
+
+    <string-array name="mp1_rdbtn3">
+        <item>갇힌 무리들</item>
+        <item>갇힌 무리들2</item>
+        <item>갇힌 무리들3</item>
+    </string-array>
 
     //메인페이지2
     <string name="mp2_text1">핼쑥한 늙은 남자가 상고어로 빠르게 중얼거린다. 그러자 여러 사람들이 중얼거린다. 상고어와 불어를 알던 이름은 말을 들어보려 노력한다. 반란군, 사살, 죽음. 단편적인 단어밖에 들리지 않는다. 대화를 듣던 이름은 좁은 방안에서 일어선다.</string>
@@ -126,6 +145,15 @@
         <item>문을 열고 목을 졸라 기절시킨다.</item>
         <item>문을 열고 목을 찔러 죽인다.</item>
         <item>문을 열고 눈을 찔러 쓰러트린다.</item>
+    </string-array>
+    <string-array name="mp11_rdbtn2">
+        <item>닫힌 문을 두드린다.</item>
+        <item>닫힌 문을 크게 두드린다.</item>
+        <item>문을 두드린다.</item>
+    </string-array>
+    <string-array name="mp11_rdbtn3">
+        <item>나가기를 기다린다.</item>
+        <item>나가는것을 기다린다.</item>
     </string-array>
 
 
