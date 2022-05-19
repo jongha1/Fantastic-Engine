@@ -121,7 +121,12 @@
     <string name="mp11_text4">조심스레 나가기를 기다리자 이내 군인이 나간다. \'이름\'은 안도하며 한숨을 쉰다.</string> //11-1로
     <string name="mp11_btn1">문을 열고 목을 졸라 기절시킨다.</string>
     <string name="mp11_btn2">닫힌 문을 크게 두드린다.</string>
-    <string name="mp11_btn3"> 나가기를 기다린다.</string>
+    <string name="mp11_btn3">나가기를 기다린다.</string>
+    <string-array name="mp11_rdbtn1">
+        <item>문을 열고 목을 졸라 기절시킨다.</item>
+        <item>문을 열고 목을 찔러 죽인다.</item>
+        <item>문을 열고 눈을 찔러 쓰러트린다.</item>
+    </string-array>
 
 
     //메인페이지11-1
