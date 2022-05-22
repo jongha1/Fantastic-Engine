@@ -30,7 +30,7 @@
         />
 
     <Button
-        android:id="@+id/btn2"
+        android:id="@+id/rdbtn2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/mp11_btn2"
@@ -43,7 +43,7 @@
         />
 
     <Button
-        android:id="@+id/btn3"
+        android:id="@+id/rdbtn3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/mp11_btn3"

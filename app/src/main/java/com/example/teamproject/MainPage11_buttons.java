@@ -11,25 +11,103 @@ import java.util.List;
 import java.util.Random;
 
 public class MainPage11_buttons extends Activity {
-    //Button btn_sub1;
-    Button btn_sub2;
-    Button btn_sub3;
+
+    Button btn_rd2;
+    Button btn_rd3;
     Button btn_rd1;
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainpage011_buttons);
+        Random rs = new Random();
 
       //  btn_sub1 = findViewById(R.id.btn1);
-        btn_sub2 = findViewById(R.id.btn2);
-        btn_sub3 = findViewById(R.id.btn3);
+        btn_rd2 = findViewById(R.id.rdbtn2);
+        btn_rd3 = findViewById(R.id.rdbtn3);
         btn_rd1 = findViewById(R.id.rdbtn1);
 
 
-        String[] randomBtn = getResources().getStringArray(R.array.mp11_rdbtn1);
-        Random random = new Random();
-        int n = random.nextInt(randomBtn.length - 0);
-        btn_rd1.setText(randomBtn[n]);
+        String[] randomBtn1 = getResources().getStringArray(R.array.mp11_rdbtn1);
+        Random random1 = new Random();
+        int n1 = random1.nextInt(randomBtn1.length - 0);
+        btn_rd1.setText(randomBtn1[n1]);
+
+        String[] randomBtn2 = getResources().getStringArray(R.array.mp11_rdbtn2);
+        Random random2 = new Random();
+        int n2 = random2.nextInt(randomBtn2.length - 0);
+        btn_rd2.setText(randomBtn2[n2]);
+
+        String[] randomBtn3 = getResources().getStringArray(R.array.mp11_rdbtn3);
+        Random random3 = new Random();
+        int n3 = random3.nextInt(randomBtn3.length - 0);
+        btn_rd3.setText(randomBtn3[n3]);
+
+        ArrayList<String> strings = new ArrayList<String>();
+
+        strings.add(btn_rd1.getText().toString());
+        strings.add(btn_rd2.getText().toString());
+        strings.add(btn_rd3.getText().toString());
+
+        int r = rs.nextInt(3);
+        int r1 = rs.nextInt(2);
+        if (r == 0 && r1 == 0) {
+            btn_rd1.setText(strings.get(r));
+            btn_rd1 = findViewById(R.id.rdbtn1);
+            strings.remove(r);
+            btn_rd2.setText(strings.get(r1));
+            btn_rd2 = findViewById(R.id.rdbtn2);
+            strings.remove(r1);
+            btn_rd3.setText(strings.get(0));
+            btn_rd3 = findViewById(R.id.rdbtn3);
+        } else if (r == 0 && r1 == 1) {
+            btn_rd1.setText(strings.get(r));
+            btn_rd1 = findViewById(R.id.rdbtn1);
+            strings.remove(r);
+            btn_rd2.setText(strings.get(r1));
+            btn_rd2 = findViewById(R.id.rdbtn3);
+            strings.remove(r1);
+            btn_rd3.setText(strings.get(0));
+            btn_rd3 = findViewById(R.id.rdbtn2);
+
+        } else if (r == 1 && r1 == 0) {
+            btn_rd1.setText(strings.get(r));
+            btn_rd1 = findViewById(R.id.rdbtn2);
+            strings.remove(r);
+            btn_rd2.setText(strings.get(r1));
+            btn_rd2 = findViewById(R.id.rdbtn1);
+            strings.remove(r1);
+            btn_rd3.setText(strings.get(0));
+            btn_rd3 = findViewById(R.id.rdbtn3);
+        } else if (r == 2 && r1 == 0) {
+            btn_rd1.setText(strings.get(r));
+            btn_rd1 = findViewById(R.id.rdbtn2);
+            strings.remove(r);
+            btn_rd2.setText(strings.get(r1));
+            btn_rd2 = findViewById(R.id.rdbtn3);
+            strings.remove(r1);
+            btn_rd3.setText(strings.get(0));
+            btn_rd3 = findViewById(R.id.rdbtn1);
+
+        } else if (r == 1 && r1 == 1) {
+            btn_rd1.setText(strings.get(r));
+            btn_rd1 = findViewById(R.id.rdbtn3);
+            strings.remove(r);
+            btn_rd2.setText(strings.get(r1));
+            btn_rd2 = findViewById(R.id.rdbtn1);
+            strings.remove(r1);
+            btn_rd3.setText(strings.get(0));
+            btn_rd3 = findViewById(R.id.rdbtn2);
+
+        } else if (r == 2 && r1 == 1) {
+            btn_rd1.setText(strings.get(r));
+            btn_rd1 = findViewById(R.id.rdbtn3);
+            strings.remove(r);
+            btn_rd2.setText(strings.get(r1));
+            btn_rd2 = findViewById(R.id.rdbtn2);
+            strings.remove(r1);
+            btn_rd3.setText(strings.get(0));
+            btn_rd3 = findViewById(R.id.rdbtn1);
+        }
 
         btn_rd1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,7 +117,7 @@ public class MainPage11_buttons extends Activity {
             }
         });
 
-        btn_sub2.setOnClickListener(new View.OnClickListener() {
+        btn_rd2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), MainPage11_button2.class);
@@ -47,7 +125,7 @@ public class MainPage11_buttons extends Activity {
             }
         });
 
-        btn_sub3.setOnClickListener(new View.OnClickListener() {
+        btn_rd3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), MainPage11_button3.class);
