@@ -6,6 +6,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 public class MainPage1 extends Activity {
@@ -14,6 +15,9 @@ public class MainPage1 extends Activity {
     Button btn_sub;
     TextView tv_mainpage1;
 
+    int HP = 100;
+    private ProgressBar mainpage1Bar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,7 +25,11 @@ public class MainPage1 extends Activity {
 
         btn_sub = findViewById(R.id.btn1);
         tv_mainpage1 = findViewById(R.id.tv_mainpage1);
+        mainpage1Bar = (ProgressBar)findViewById(R.id.main1progressBar);
+        mainpage1Bar.setProgress(HP);
 
+        Intent intent = new Intent(getApplicationContext(), MainPage1_buttons.class); // 버튼3개있는 페이지에 값 넘기는걸로 객체 생성
+        intent.putExtra("currHP",HP); // "currHP"라는 이름으로 HP값 (상단의 int HP = 100)을 저장
 
 //        intent.putExtra("name",name); 팝업페이지에서 이쪽으로 값넘겨주는거
 

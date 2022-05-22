@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ProgressBar;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,6 +18,8 @@ public class MainPage1_buttons extends Activity {
     Button btn_rd2;
     Button btn_rd3;
 
+    private ProgressBar mainpageBtnBar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +29,11 @@ public class MainPage1_buttons extends Activity {
         btn_rd1 = findViewById(R.id.btn1);
         btn_rd2 = findViewById(R.id.btn2);
         btn_rd3 = findViewById(R.id.btn3);
+
+        Intent HPintent = getIntent();  // intent를 가져오는 형식으로 초기화
+        int HP = HPintent.getIntExtra("currHP",100);
+        mainpageBtnBar = (ProgressBar)findViewById(R.id.main1btnsProgressBar);
+        mainpageBtnBar.setProgress(HP);
 
         String[] randomBtn1 = getResources().getStringArray(R.array.mp1_rdbtn1);
         Random random1 = new Random();
@@ -115,7 +123,9 @@ public class MainPage1_buttons extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), MainPage1_button1.class);
+                intent.putExtra("currHP",HP);
                 startActivity(intent);
+
             }
         });
 
