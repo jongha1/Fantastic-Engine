@@ -49,7 +49,6 @@ public class MainPage1_buttons extends Activity {
         strings.add(btn_rd2.getText().toString());
         strings.add(btn_rd3.getText().toString());
 
-
         int r = rs.nextInt(3);
         int r1 = rs.nextInt(2);
         if (r == 0 && r1 == 0) {
