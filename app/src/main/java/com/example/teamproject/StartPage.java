@@ -9,6 +9,8 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AlertDialog;
 
+import java.util.jar.Attributes;
+
 public class StartPage extends Activity {
 
     Button btn_sub;
@@ -23,7 +25,7 @@ public class StartPage extends Activity {
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), MainPage1.class);
+                Intent intent = new Intent(getApplicationContext(), NamePopup.class);
                 startActivity(intent);
             }
         });

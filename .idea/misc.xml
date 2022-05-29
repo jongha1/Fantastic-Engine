@@ -107,7 +107,7 @@
         <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage2.xml" value="0.22056159420289856" />
         <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage2_button1.xml" value="0.22056159420289856" />
         <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage2_button2.xml" value="0.22056159420289856" />
-        <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage2_buttons.xml" value="0.22056159420289856" />
+        <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage2_buttons.xml" value="0.25" />
         <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage3.xml" value="0.22056159420289856" />
         <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage3_button1.xml" value="0.22056159420289856" />
         <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage3_button2.xml" value="0.22056159420289856" />
@@ -124,10 +124,12 @@
         <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage4_button3_1.xml" value="0.22056159420289856" />
         <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage4_buttons1.xml" value="0.22056159420289856" />
         <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage4_buttons2.xml" value="0.22056159420289856" />
-        <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage5.xml" value="0.22056159420289856" />
+        <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage5.xml" value="0.25" />
         <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage5_2.xml" value="0.22056159420289856" />
         <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage5_3.xml" value="0.22056159420289856" />
         <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage5_4.xml" value="0.22056159420289856" />
+        <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage5_popup1.xml" value="0.25" />
+        <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage5_popup2.xml" value="0.22056159420289856" />
         <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage6.xml" value="0.22056159420289856" />
         <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage6_1.xml" value="0.22056159420289856" />
         <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage6_buttons.xml" value="0.22056159420289856" />
@@ -153,6 +155,8 @@
         <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage9_button1.xml" value="0.22056159420289856" />
         <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage9_button2.xml" value="0.22056159420289856" />
         <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage9_buttons.xml" value="0.22056159420289856" />
+        <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/nameinput.xml" value="0.22056159420289856" />
+        <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/namepopup.xml" value="0.3177083333333333" />
         <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/startpage.xml" value="0.23641304347826086" />
         <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/titlepage.xml" value="0.1933876811594203" />
         <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/MainPage1.xml" value="0.23641304347826086" />
@@ -189,5 +193,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22056159420289856" />
+      </ProjectState>
+    </option>
   </component>
 </project>

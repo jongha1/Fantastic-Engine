@@ -13,10 +13,13 @@ public class TitlePage extends AppCompatActivity {
 
     Button btn_main;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.titlepage);
+
+
 
         btn_main = findViewById(R.id.btn1);
 
@@ -28,6 +31,8 @@ public class TitlePage extends AppCompatActivity {
             }
         });
     }
+
+
     @Override
     public void onBackPressed() {
         AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);
