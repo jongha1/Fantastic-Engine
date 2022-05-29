@@ -18,14 +18,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="50dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginRight="20dp"
         android:text="@string/mp4_text2"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center_horizontal">
     <Button
         android:id="@+id/btn1"
         android:layout_width="wrap_content"
@@ -33,9 +34,9 @@
         android:text="@string/btn2"
         android:backgroundTint="#FFFFFF"
         android:textColor="@color/black"
-        android:layout_gravity="center"
-        android:layout_marginTop="60dp"
+        android:layout_marginBottom="30dp"
         />
+    </LinearLayout>
 
 
 </LinearLayout>

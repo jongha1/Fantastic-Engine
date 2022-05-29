@@ -19,6 +19,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".StartPage"/>
+        <activity
+            android:name=".NamePopup"
+            android:theme="@android:style/Theme.Holo.Dialog" />
         <activity android:name=".MainPage1"/>
         <activity android:name=".MainPage1_buttons"/>
         <activity android:name=".MainPage1_button1"/>
@@ -45,7 +48,12 @@
         <activity android:name=".MainPage4_buttons1"/>
         <activity android:name=".MainPage4_buttons2"/>
         <activity android:name=".MainPage5"/>
-        <activity android:name=".MainPage5_1"/>
+        <activity
+            android:name=".MainPage5_popup1"
+            android:theme="@android:style/Theme.Holo.Dialog" />
+        <activity
+            android:name=".MainPage5_popup2"
+            android:theme="@android:style/Theme.Holo.Dialog" />
         <activity android:name=".MainPage5_2"/>
         <activity android:name=".MainPage5_3"/>
         <activity android:name=".MainPage5_4"/>

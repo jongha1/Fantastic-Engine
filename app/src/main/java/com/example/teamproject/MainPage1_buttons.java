@@ -1,12 +1,15 @@
 package com.example.teamproject;
 
 import android.app.Activity;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
+
+import androidx.appcompat.app.AlertDialog;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -56,7 +59,6 @@ public class MainPage1_buttons extends Activity {
         strings.add(btn_rd1.getText().toString());
         strings.add(btn_rd2.getText().toString());
         strings.add(btn_rd3.getText().toString());
-
 
         int r = rs.nextInt(3);
         int r1 = rs.nextInt(2);
@@ -146,4 +148,27 @@ public class MainPage1_buttons extends Activity {
         });
 
     }
+    @Override
+    public void onBackPressed() {
+        AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);
+        alert_ex.setMessage("앱을 닫으시겠습니까?");
+
+        alert_ex.setNegativeButton("종료", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                finishAffinity();
+            }
+        });
+
+        alert_ex.setPositiveButton("취소", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+            }
+        });
+        AlertDialog alert = alert_ex.create();
+        alert.show();
+
+    }
+
 }

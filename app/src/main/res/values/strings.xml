@@ -21,13 +21,11 @@
         <item>쇠창살 사이2</item>
         <item>쇠창살 사이3</item>
     </string-array>
-
     <string-array name="mp1_rdbtn2">
         <item>\'이름\'의 주머니</item>
         <item>\'이름\'의 주머니2</item>
         <item>\'이름\'의 주머니3</item>
     </string-array>
-
     <string-array name="mp1_rdbtn3">
         <item>갇힌 무리들</item>
         <item>갇힌 무리들2</item>
