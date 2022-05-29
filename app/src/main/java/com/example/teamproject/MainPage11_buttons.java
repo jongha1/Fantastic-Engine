@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
+import android.widget.ProgressBar;
 import androidx.appcompat.app.AlertDialog;
 
 import java.util.ArrayList;
@@ -18,10 +18,20 @@ public class MainPage11_buttons extends Activity {
     Button btn_rd2;
     Button btn_rd3;
     Button btn_rd1;
+    //
+    private ProgressBar progress;
+    int HP;
+    //
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainpage011_buttons);
+        //
+        Intent HPintent = getIntent();  // intent를 가져오는 형식으로 초기화
+        HP = HPintent.getIntExtra("currHP",100);
+        progress = (ProgressBar)findViewById(R.id.progressBar60);
+        progress.setProgress(HP);
+        //
         Random rs = new Random();
 
       //  btn_sub1 = findViewById(R.id.btn1);
@@ -116,6 +126,9 @@ public class MainPage11_buttons extends Activity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), MainPage11_button1.class);
+                //
+                intent.putExtra("currHP",HP);
+                //
                 startActivity(intent);
             }
         });
@@ -124,6 +137,9 @@ public class MainPage11_buttons extends Activity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), MainPage11_button2.class);
+                //
+                intent.putExtra("currHP",HP);
+                //
                 startActivity(intent);
             }
         });
@@ -132,6 +148,9 @@ public class MainPage11_buttons extends Activity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), MainPage11_button3.class);
+                //
+                intent.putExtra("currHP",HP);
+                //
                 startActivity(intent);
             }
         });

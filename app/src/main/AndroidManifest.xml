@@ -22,8 +22,10 @@
         <activity
             android:name=".NamePopup"
             android:theme="@android:style/Theme.Holo.Dialog" />
+        <activity android:name=".deathending1"/>
         <activity android:name=".MainPage1"/>
         <activity android:name=".MainPage1_buttons"/>
+        <activity android:name=".MainPage1_buttons_ext"/>
         <activity android:name=".MainPage1_button1"/>
         <activity android:name=".MainPage1_button2"/>
         <activity android:name=".MainPage1_button3"/>

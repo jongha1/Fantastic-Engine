@@ -5,6 +5,12 @@
     android:orientation="vertical"
     android:background="@color/gray">
 
+    <ProgressBar
+        android:id="@+id/progressBar46"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

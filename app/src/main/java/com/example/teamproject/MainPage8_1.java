@@ -6,24 +6,35 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
+import android.widget.ProgressBar;
 import androidx.appcompat.app.AlertDialog;
 
 public class MainPage8_1 extends Activity {
 
     Button btn_sub;
-
+    //
+    private ProgressBar progress;
+    int HP;
+    //
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainpage8_1);
-
+        //
+        Intent HPintent = getIntent();  // intent를 가져오는 형식으로 초기화
+        HP = HPintent.getIntExtra("currHP",100);
+        progress = (ProgressBar)findViewById(R.id.progressBar43);
+        progress.setProgress(HP);
+        //
         btn_sub = findViewById(R.id.btn1);
 
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), MainPage9.class);
+                //
+                intent.putExtra("currHP",HP);
+                //
                 startActivity(intent);
             }
         });

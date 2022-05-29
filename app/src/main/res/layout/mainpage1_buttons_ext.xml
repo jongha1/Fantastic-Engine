@@ -6,7 +6,7 @@
     android:background="@color/gray">
 
     <ProgressBar
-        android:id="@+id/progressBar59"
+        android:id="@+id/extProgressBar"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
@@ -20,31 +20,32 @@
         android:background="@color/teal_200"
         />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/mp11_text4"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:layout_margin="50dp"
-        />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="bottom|center_horizontal">
 
     <Button
-        android:id="@+id/btn1"
-        android:layout_width="wrap_content"
+        android:id="@+id/extbtn2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn2"
+        android:text="갇힌 무리들"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
         android:backgroundTint="#FFFFFF"
         android:textColor="@color/black"
-        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"
         />
-    </LinearLayout>
+
+    <Button
+        android:id="@+id/extbtn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\이름\의 주머니"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        />
 
 
 </LinearLayout>

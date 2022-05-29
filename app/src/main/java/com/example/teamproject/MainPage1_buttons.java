@@ -135,6 +135,7 @@ public class MainPage1_buttons extends Activity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), MainPage1_button2.class);
+                intent.putExtra("currHP",HP);
                 startActivity(intent);
             }
         });
@@ -143,6 +144,7 @@ public class MainPage1_buttons extends Activity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), MainPage1_button3.class);
+                intent.putExtra("currHP",HP);
                 startActivity(intent);
             }
         });
