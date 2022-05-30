@@ -6,19 +6,24 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
 
 public class MainPage10_2 extends Activity {
 
+    TextView textView;
     Button btn_sub;
-
+    String name = "";
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainpage010_2);
 
         btn_sub = findViewById(R.id.btn1);
+        textView = findViewById(R.id.text1);
+        textView.setText("(문자 음과 함께 다시 날아드는 문자. 정확한 위치를 파악해야 하니 gps를 켜 주십쇼.) " +
+                "답답해진 " +name+"은 한숨을 쉬며 gps를 켠다.");
 
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override

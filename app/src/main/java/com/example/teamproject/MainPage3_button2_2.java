@@ -27,7 +27,7 @@ public class MainPage3_button2_2 extends Activity {
         btn_sub = findViewById(R.id.btn1);
         tv_mainpage3_2_2 = findViewById(R.id.tv_mainpage3_2_2);
 
-        tv_mainpage3_2_2.setText("뒷주머니에 꽂혀 있던 권총이다. 맞아가며 주머니에 손을 뻗어 품 안으로 숨긴다. 간수는"+name+"을 잡아 복도를" +
+        tv_mainpage3_2_2.setText("뒷주머니에 꽂혀 있던 권총이다. 맞아가며 주머니에 손을 뻗어 품 안으로 숨긴다. 간수는 "+name+"을 잡아 복도를" +
                         " 지나 좁고 어두운 독방에 가둔다. 독방에는 피냄새가 낭자하다.");
 
         btn_sub.setOnClickListener(new View.OnClickListener() {

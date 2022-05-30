@@ -32,7 +32,7 @@ public class MainPage3 extends Activity {
         btn_sub2 = findViewById(R.id.btn2);
         tv_mainpage3 = findViewById(R.id.tv_mainpage3);
 
-        tv_mainpage3.setText("두들겨 맞던"+name+" 의 눈에 반란군이 지닌 물건들이 띈다. 저항할까? 맞아가며 저걸 빼앗을까? (타이머 10초)");
+        tv_mainpage3.setText("두들겨 맞던 "+name+"의 눈에 반란군이 지닌 물건들이 띈다. 저항할까? 맞아가며 저걸 빼앗을까? (타이머 10초)");
 
         btn_sub1.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -3,22 +3,32 @@ package com.example.teamproject;
 import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
 
 public class MainPage7_2 extends Activity {
 
     Button btn_sub;
+    TextView textView;
+    String name = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
+        SharedPreferences pref = getSharedPreferences("name", MODE_PRIVATE);
+        name = pref.getString("name", "");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainpage7_2);
 
         btn_sub = findViewById(R.id.btn1);
+        textView = findViewById(R.id.text1);
+        textView.setText(name+"은 주머니에 넣어 둔 맥가이버칼을 이용해 어설픈 창살을 비틀어 빼낸다. 여러 번 반복하자 "+
+                name+"의 상체가 나갈 정도의 공간이 만들어진다. '허술해서 다행이다.' 맥가이버칼을 다시 주머니에 넣던 "+
+                name+"은 주머니 속에서 걸리적거리는 쪽지를 발견한다. 확인해 볼까?");
 
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override

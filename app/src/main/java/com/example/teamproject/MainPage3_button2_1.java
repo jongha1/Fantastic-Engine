@@ -27,7 +27,7 @@ public class MainPage3_button2_1 extends Activity {
         btn_sub = findViewById(R.id.btn1);
         tv_mainpage3_2_1 = findViewById(R.id.tv_mainpage3_2_1);
 
-        tv_mainpage3_2_1.setText("수용소와 감옥 열쇠 꾸러미다. 열쇠를 조심히 끌어내 품 안으로 숨긴다. 간수는"
+        tv_mainpage3_2_1.setText("수용소와 감옥 열쇠 꾸러미다. 열쇠를 조심히 끌어내 품 안으로 숨긴다. 간수는 "
                 +name+"을 잡아 복도를 지나 좁고 어두운 독방에 가둔다. 독방에는 피냄새가 낭자하다.");
 
 

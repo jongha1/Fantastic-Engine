@@ -3,23 +3,31 @@ package com.example.teamproject;
 import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
 
 public class MainPage7_buttons1_1 extends Activity {
 
     Button btn_sub;
-
+    TextView textView;
+    String name = "";
     @Override
     protected void onCreate(Bundle savedInstanceState){
+        SharedPreferences pref = getSharedPreferences("name", MODE_PRIVATE);
+        name = pref.getString("name", "");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainpage7_buttons1_1);
 
         btn_sub = findViewById(R.id.btn1);
-
+        textView = findViewById(R.id.text1);
+        textView.setText("누구신지 말씀해 주세요. "+ name+"은 자신이 처한 상황을 말한다." +
+                " 잠시 말이 없던 상대방은 확인 후 다시 연락을 주겠다고 하며 전화는 끊겨진다. " +
+                name+"은 폰에 대고 간절히 이야기를 하지만, 들리는 말은 없다.");
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

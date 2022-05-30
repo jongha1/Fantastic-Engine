@@ -3,23 +3,31 @@ package com.example.teamproject;
 import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
 
 public class MainPage7_5 extends Activity {
 
     Button btn_sub;
-
+    TextView textView;
+    String name = "";
     @Override
     protected void onCreate(Bundle savedInstanceState){
+        SharedPreferences pref = getSharedPreferences("name", MODE_PRIVATE);
+        name = pref.getString("name", "");
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainpage7_5);
 
         btn_sub = findViewById(R.id.btn1);
-
+        textView = findViewById(R.id.text1);
+        textView.setText("연락이 끊기고, 바로 알림이 뜬다. (찾으면 죽여버리겠다는 문자) 문자를 본 " +
+                        name+"은 등골이 오싹해진다.");
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

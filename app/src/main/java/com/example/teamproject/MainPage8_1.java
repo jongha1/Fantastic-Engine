@@ -3,23 +3,30 @@ package com.example.teamproject;
 import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
 
 public class MainPage8_1 extends Activity {
-
+    TextView textView;
     Button btn_sub;
-
+    String name = "";
     @Override
     protected void onCreate(Bundle savedInstanceState){
+        SharedPreferences pref = getSharedPreferences("name", MODE_PRIVATE);
+        name = pref.getString("name", "");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainpage8_1);
 
         btn_sub = findViewById(R.id.btn1);
-
+        textView = findViewById(R.id.text1);
+        textView.setText("(대사관에서 문자가 날아들어온 내용. 12시까지 수용소 밖으로 지프를 보내겠습니다. 팝업으로) "+
+                name+"은 안도하며 현재 시간을 확인한다. '벌써 열 시 반이라니. 나갈 수 있을까.' " +
+                name+"은 초조해하며 독방 복도의 문을 살며시 열어 본다. 놀랍게도, 끼이익 하는 소리와 함께 문고리가 돌아간다.");
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

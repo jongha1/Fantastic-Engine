@@ -26,7 +26,7 @@ public class MainPage3_button1 extends Activity {
         btn_sub = findViewById(R.id.btn1);
         tv_mainpage3_1 = findViewById(R.id.tv_mainpage3_1);
 
-        tv_mainpage3_1.setText("저항하던 이름은 눈이 점점 아득해진다. 주마등이 스쳐간다. "+name+"의 숨이 꺼진다. (hp 모두 깎이게 하기, 죽음 엔딩)");
+        tv_mainpage3_1.setText("저항하던 "+name+"은 눈이 점점 아득해진다. 주마등이 스쳐간다. "+name+"의 숨이 꺼진다. (hp 모두 깎이게 하기, 죽음 엔딩)");
 
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -28,7 +28,7 @@ public class MainPage5 extends Activity {
         tv_mainpage5 = findViewById(R.id.tv_mainpage5);
 
         tv_mainpage5.setText("아무것도 할 수 있는 게 없다. 이대로 죽을 수밖에 없나? 구석에" +
-                            " 쭈그려 앉아 쉬던" +name+"은 물건이 아무것도 도움이 안 된다는 생각에 빠진다. 생각을 곱씹던 " +
+                            " 쭈그려 앉아 쉬던 " +name+"은 물건이 아무것도 도움이 안 된다는 생각에 빠진다. 생각을 곱씹던 " +
                             name+"의 주머니 속에서 핸드폰 진동이 울린다. (진동 효과) 캘린더 알림이 잠긴 핸드폰 위에 뜬다.");
 
 

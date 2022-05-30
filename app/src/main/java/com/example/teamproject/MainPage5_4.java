@@ -6,12 +6,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 import androidx.appcompat.app.AlertDialog;
 
 public class MainPage5_4 extends Activity {
 
     Button btn_sub;
+    EditText editText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -19,7 +21,7 @@ public class MainPage5_4 extends Activity {
         setContentView(R.layout.mainpage5_4);
 
         btn_sub = findViewById(R.id.btn1);
-
+        editText = findViewById(R.id.edit1);
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -28,6 +30,8 @@ public class MainPage5_4 extends Activity {
             }
         });
     }
+
+
 //    @Override
 //    public void onBackPressed() {
 //        AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);

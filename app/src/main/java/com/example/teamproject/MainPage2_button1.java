@@ -27,8 +27,8 @@ public class MainPage2_button1 extends Activity {
         btn_sub = findViewById(R.id.btn1);
         tv_mainpage2_1=findViewById(R.id.tv_mainpage2_1);
         tv_mainpage2_1.setText("소란스러움에 반란군이 쇠창살을 총으로 두들겨 친다. 조용히 해. 쇠창살 사이로 들이밀어" +
-                        " 말하던 늙은 남자를 쏘아 죽인다. 얼굴이 하얗게 질린 " +name+"은 반란군과 눈을 마주친다. 욕을 지껄이던 반란군은" +
-                        " 이름을 거칠게 잡아 밖으로 끌어낸다. 속으로 욕을 짓씹고 반항하던 이름을 반란군이 두들겨 팬다. (hp 깎이는 행동)");
+                        " 말하던 늙은 남자를 쏘아 죽인다. 얼굴이 하얗게 질린 " +name+"은 반란군과 눈을 마주친다. 욕을 지껄이던 반란군은 " +
+                        name+"을 거칠게 잡아 밖으로 끌어낸다. 속으로 욕을 짓씹고 반항하던 "+name+"을 반란군이 두들겨 팬다. (hp 깎이는 행동)");
 
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
