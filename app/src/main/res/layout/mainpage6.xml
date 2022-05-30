@@ -17,6 +17,7 @@
         />
 
     <TextView
+        android:id="@+id/tv_mainpage6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/mp6_text1"

@@ -42,7 +42,7 @@ public class MainPage1_buttons extends Activity {
         String[] randomBtn2 = getResources().getStringArray(R.array.mp1_rdbtn2);
         Random random2 = new Random();
         int n2 = random2.nextInt(randomBtn2.length - 0);
-        btn_rd2.setText(randomBtn2[n2]);
+        btn_rd2.setText(name+randomBtn2[n2]);
 
         String[] randomBtn3 = getResources().getStringArray(R.array.mp1_rdbtn3);
         Random random3 = new Random();

@@ -3,6 +3,7 @@ package com.example.teamproject;
 import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -12,15 +13,23 @@ import androidx.appcompat.app.AlertDialog;
 
 public class MainPage5 extends Activity {
 
+    String name="";
     Button btn_sub;
-    TextView txtResult;
+    TextView tv_mainpage5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
+        SharedPreferences pref = getSharedPreferences("name", MODE_PRIVATE);    // token 이름의 기본모드 설정
+        name = pref.getString("name", "");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainpage5);
 
         btn_sub = findViewById(R.id.btn1);
+        tv_mainpage5 = findViewById(R.id.tv_mainpage5);
+
+        tv_mainpage5.setText("아무것도 할 수 있는 게 없다. 이대로 죽을 수밖에 없나? 구석에" +
+                            " 쭈그려 앉아 쉬던" +name+"은 물건이 아무것도 도움이 안 된다는 생각에 빠진다. 생각을 곱씹던 " +
+                            name+"의 주머니 속에서 핸드폰 진동이 울린다. (진동 효과) 캘린더 알림이 잠긴 핸드폰 위에 뜬다.");
 
 
         btn_sub.setOnClickListener(new View.OnClickListener() {

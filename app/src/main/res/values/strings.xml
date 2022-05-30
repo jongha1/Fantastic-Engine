@@ -13,7 +13,7 @@
     <string name="mp1_text4">갇힌 무리들을 바라보니 절망에 찬 눈길만 돌아온다.</string>
 
     <string name="mp1_btn1">쇠창살 사이</string>
-    <string name="mp1_btn2">\'이름\'의 주머니</string>
+    <string name="mp1_btn2">의 주머니</string>
     <string name="mp1_btn3">갇힌 무리들</string>
 
     <string-array name="mp1_rdbtn1">
@@ -22,9 +22,9 @@
         <item>쇠창살 사이3</item>
     </string-array>
     <string-array name="mp1_rdbtn2">
-        <item>\'이름\'의 주머니</item>
-        <item>\'이름\'의 주머니2</item>
-        <item>\'이름\'의 주머니3</item>
+        <item>의 주머니</item>
+        <item>의 주머니2</item>
+        <item>의 주머니3</item>
     </string-array>
     <string-array name="mp1_rdbtn3">
         <item>갇힌 무리들</item>
