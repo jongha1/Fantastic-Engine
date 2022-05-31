@@ -3,12 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/gray">
+    android:background="#E3E3E3">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/main4"
+        android:src="@drawable/main1_3"
         android:layout_gravity="center"
         android:adjustViewBounds="true"
         android:background="@color/teal_200"
