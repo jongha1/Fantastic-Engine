@@ -18,7 +18,10 @@ public class MainPage3 extends Activity {
 
     Button btn_sub1;
     Button btn_sub2;
+    //
     private ProgressBar progress;
+    int HP;
+    //
     String name = "";
     TextView tv_mainpage3;
 
@@ -29,18 +32,17 @@ public class MainPage3 extends Activity {
         name = pref.getString("name", "");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainpage3);
-
+        //
+        Intent HPintent = getIntent();  // intent를 가져오는 형식으로 초기화
+        HP = HPintent.getIntExtra("currHP",100);
+        progress = (ProgressBar)findViewById(R.id.progressBar7);
+        progress.setProgress(HP);
+        //
         btn_sub1 = findViewById(R.id.btn1);
         btn_sub2 = findViewById(R.id.btn2);
         tv_mainpage3 = findViewById(R.id.tv_mainpage3);
 
         tv_mainpage3.setText("두들겨 맞던 "+name+"의 눈에 반란군이 지닌 물건들이 띈다. 저항할까? 맞아가며 저걸 빼앗을까? (타이머 10초)");
-
-        Intent HPintent = getIntent();  // intent를 가져오는 형식으로 초기화
-        int HP = HPintent.getIntExtra("currHP",100);
-
-        progress = (ProgressBar)findViewById(R.id.progressBar7);
-        progress.setProgress(HP);
 
         btn_sub1.setOnClickListener(new View.OnClickListener() {
             @Override
