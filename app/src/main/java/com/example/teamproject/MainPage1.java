@@ -14,10 +14,10 @@ import androidx.appcompat.app.AlertDialog;
 
 public class MainPage1 extends Activity {
 
-    //    String name = ""; //스트링변수선언 (매패이지마다 붙이기)
+    String name = ""; //스트링변수선언 (매패이지마다 붙이기)
     Button btn_sub;
     TextView tv_mainpage1;
-    //TextView txt;
+    TextView txt;
     int HP = 100;
     private ProgressBar mainpage1Bar;
     @Override
@@ -26,13 +26,12 @@ public class MainPage1 extends Activity {
         setContentView(R.layout.mainpage1);
 
 //      Shared 받아오는거(매 패이지마다 붙이기)
-//        SharedPreferences pref = getSharedPreferences("name", MODE_PRIVATE);    // token 이름의 기본모드 설정
-//         name = pref.getString("name", "");
+        SharedPreferences pref = getSharedPreferences("name", MODE_PRIVATE);    // token 이름의 기본모드 설정
+        name = pref.getString("name", "");
 
         btn_sub = findViewById(R.id.btn1);
         tv_mainpage1 = findViewById(R.id.tv_mainpage1);
-//        tv_mainpage1.setText("오래된 중앙아프리카 공화국 내전을 취재하러 온"+name+ "은 시민들을 취재하다 혼자 떨어져 폭발물에 휩쓸렸다. 눈을 떠 보니,
-//                // 좁고 고름 냄새로 퀴퀴한 감옥 안이었다.);
+        tv_mainpage1.setText("오래된 중앙아프리카 공화국 내전을 취재하러 온"+name+ "은 시민들을 취재하다 혼자 떨어져 폭발물에 휩쓸렸다. 눈을 떠 보니, 좁고 고름 냄새로 퀴퀴한 감옥 안이었다.");
         mainpage1Bar = (ProgressBar)findViewById(R.id.main1progressBar);
         mainpage1Bar.setProgress(HP);
 

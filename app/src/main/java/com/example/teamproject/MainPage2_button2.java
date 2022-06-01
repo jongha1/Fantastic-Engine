@@ -38,6 +38,9 @@ public class MainPage2_button2 extends Activity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), MainPage3.class);
+                //
+                intent.putExtra("currHP",HP);
+                //
                 startActivity(intent);
             }
         });

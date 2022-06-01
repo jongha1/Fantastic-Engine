@@ -81,19 +81,19 @@
         <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage1_buttons_ext.xml" value="0.1" />
         <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage2.xml" value="0.1" />
         <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage2_button1.xml" value="0.22" />
-        <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage2_button2.xml" value="0.1" />
+        <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage2_button2.xml" value="0.18" />
         <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage2_buttons.xml" value="0.18" />
         <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage3.xml" value="0.1" />
-        <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage3_button1.xml" value="0.1" />
-        <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage3_button2.xml" value="0.1" />
-        <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage3_button2_1.xml" value="0.1" />
+        <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage3_button1.xml" value="0.22" />
+        <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage3_button2.xml" value="0.18" />
+        <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage3_button2_1.xml" value="0.18" />
         <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage3_button2_2.xml" value="0.16" />
         <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage3_button2_3.xml" value="0.1" />
         <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage4.xml" value="0.1" />
-        <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage4_button1_1.xml" value="0.1" />
-        <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage4_button2_1.xml" value="0.1" />
-        <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage4_button2_1_1.xml" value="0.1" />
-        <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage4_button2_1_2.xml" value="0.1" />
+        <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage4_button1_1.xml" value="0.22" />
+        <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage4_button2_1.xml" value="0.22" />
+        <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage4_button2_1_1.xml" value="0.18" />
+        <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage4_button2_1_2.xml" value="0.18" />
         <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage4_button2_2.xml" value="0.18" />
         <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage4_button3.xml" value="0.1" />
         <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage4_button3_1.xml" value="0.1" />
@@ -103,6 +103,7 @@
         <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage5_2.xml" value="0.1" />
         <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage5_3.xml" value="0.1" />
         <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage5_4.xml" value="0.1" />
+        <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage5_popup2.xml" value="0.1322463768115942" />
         <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage6.xml" value="0.2526041666666667" />
         <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage6_1.xml" value="0.2526041666666667" />
         <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage6_buttons.xml" value="0.2526041666666667" />
@@ -129,6 +130,7 @@
         <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage9_button2.xml" value="0.17806484295845998" />
         <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage9_buttons.xml" value="0.17806484295845998" />
         <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/namepopup.xml" value="0.2526041666666667" />
+        <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/startpage.xml" value="0.1322463768115942" />
         <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/deathending1.xml" value="0.1933876811594203" />
         <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage010.xml" value="0.22056159420289856" />
         <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage010_1.xml" value="0.22056159420289856" />
