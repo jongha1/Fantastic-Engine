@@ -52,27 +52,27 @@ public class MainPage4_button2_2 extends Activity {
                                     "(hp 다 깎이게 하기, 성급하게 결정하지 마세요, 죽음 엔딩 1)");
 
     }
-    @Override
-    public void onBackPressed() {
-        AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);
-        alert_ex.setMessage("앱을 닫으시겠습니까?");
-
-        alert_ex.setNegativeButton("종료", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                finishAffinity();
-            }
-        });
-
-        alert_ex.setPositiveButton("취소", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-
-            }
-        });
-        AlertDialog alert = alert_ex.create();
-        alert.show();
-
-    }
+//    @Override
+//    public void onBackPressed() {
+//        AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);
+//        alert_ex.setMessage("앱을 닫으시겠습니까?");
+//
+//        alert_ex.setNegativeButton("종료", new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialog, int which) {
+//                finishAffinity();
+//            }
+//        });
+//
+//        alert_ex.setPositiveButton("취소", new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialog, int which) {
+//
+//            }
+//        });
+//        AlertDialog alert = alert_ex.create();
+//        alert.show();
+//
+//    }
 
 }

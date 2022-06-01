@@ -39,27 +39,27 @@ public class MainPage7_3 extends Activity {
             }
         });
     }
-    @Override
-    public void onBackPressed() {
-        AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);
-        alert_ex.setMessage("앱을 닫으시겠습니까?");
-
-        alert_ex.setNegativeButton("종료", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                finishAffinity();
-            }
-        });
-
-        alert_ex.setPositiveButton("취소", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-
-            }
-        });
-        AlertDialog alert = alert_ex.create();
-        alert.show();
-
-    }
+//    @Override
+//    public void onBackPressed() {
+//        AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);
+//        alert_ex.setMessage("앱을 닫으시겠습니까?");
+//
+//        alert_ex.setNegativeButton("종료", new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialog, int which) {
+//                finishAffinity();
+//            }
+//        });
+//
+//        alert_ex.setPositiveButton("취소", new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialog, int which) {
+//
+//            }
+//        });
+//        AlertDialog alert = alert_ex.create();
+//        alert.show();
+//
+//    }
 
 }
