@@ -3,10 +3,13 @@ package com.example.teamproject;
 import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
+import android.widget.TextView;
+
 import androidx.appcompat.app.AlertDialog;
 
 public class MainPage11_button2 extends Activity {
@@ -16,8 +19,12 @@ public class MainPage11_button2 extends Activity {
     private ProgressBar progress;
     int HP;
     //
+    TextView textView;
+    String name = "";
     @Override
     protected void onCreate(Bundle savedInstanceState){
+        SharedPreferences pref = getSharedPreferences("name", MODE_PRIVATE);
+        name = pref.getString("name", "");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainpage011_button2);
         //
@@ -27,6 +34,11 @@ public class MainPage11_button2 extends Activity {
         progress.setProgress(HP);
         //
         btn_sub = findViewById(R.id.btn1);
+        textView = findViewById(R.id.text1);
+        textView.setText("똑똑. 군인은 소리를 무시한다. " +name+ "이 문을 발로 쾅쾅 차자 군인이 가까이 다가와 상고어로 누구냐고 묻는다. " +
+                name+"은 대꾸하지 않고 갑작스레 문을 열어 준비하던 맥가이버칼로 군인의 옆구리를 있는 힘껏 찌른다. " +
+                "총을 들어 쏘려던 군인을 피해 목을 조른다. 이내 군인의 저항이 멎자 "+ name + "은 축 늘어진 군인을 끌고 가 " +
+                "화장실에 가둔다. 군인의 군복을 벗겨내고 총기와 열쇠, 그리고 초코바까지 다 압수한다.");
 
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override

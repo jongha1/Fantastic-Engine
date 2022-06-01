@@ -17,6 +17,7 @@ public class MainPage1_button2 extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainpage1_button2);
 

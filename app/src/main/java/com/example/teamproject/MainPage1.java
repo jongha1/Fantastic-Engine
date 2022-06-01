@@ -7,7 +7,6 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
@@ -18,8 +17,6 @@ public class MainPage1 extends Activity {
     Button btn_sub;
     TextView tv_mainpage1;
     //TextView txt;
-    int HP = 100;
-    private ProgressBar mainpage1Bar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,11 +30,6 @@ public class MainPage1 extends Activity {
         tv_mainpage1 = findViewById(R.id.tv_mainpage1);
 //        tv_mainpage1.setText("오래된 중앙아프리카 공화국 내전을 취재하러 온"+name+ "은 시민들을 취재하다 혼자 떨어져 폭발물에 휩쓸렸다. 눈을 떠 보니,
 //                // 좁고 고름 냄새로 퀴퀴한 감옥 안이었다.);
-        mainpage1Bar = (ProgressBar)findViewById(R.id.main1progressBar);
-        mainpage1Bar.setProgress(HP);
-
-        Intent intent = new Intent(getApplicationContext(), MainPage1_buttons.class); // 버튼3개있는 페이지에 값 넘기는걸로 객체 생성
-        intent.putExtra("currHP",HP); // "currHP"라는 이름으로 HP값 (상단의 int HP = 100)을 저장
 
 //        팝업페이지에서 이쪽으로 값넘겨주는거 (이름 입력하는 팝업페이지 자바에 붙이기)
 //                SharedPreferences pref= getSharedPreferences("name", MODE_PRIVATE);    // name 이름의 기본모드 설정

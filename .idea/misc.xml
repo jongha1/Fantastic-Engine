@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/Fantastic-Engine/app/src/main/res/layout/mainpage010.xml" value="0.24947916666666667" />
         <entry key="..\:/AndroidStudioProjects/Fantastic-Engine/app/src/main/res/layout/mainpage011.xml" value="0.24947916666666667" />
         <entry key="..\:/AndroidStudioProjects/Fantastic-Engine/app/src/main/res/layout/mainpage011_1.xml" value="0.24947916666666667" />
         <entry key="..\:/AndroidStudioProjects/Fantastic-Engine/app/src/main/res/layout/mainpage011_button2.xml" value="0.24947916666666667" />
@@ -12,10 +13,15 @@
         <entry key="..\:/AndroidStudioProjects/Fantastic-Engine/app/src/main/res/layout/mainpage1_button2.xml" value="0.24947916666666667" />
         <entry key="..\:/AndroidStudioProjects/Fantastic-Engine/app/src/main/res/layout/mainpage1_button3.xml" value="0.24947916666666667" />
         <entry key="..\:/AndroidStudioProjects/Fantastic-Engine/app/src/main/res/layout/mainpage2.xml" value="0.24947916666666667" />
+        <entry key="..\:/AndroidStudioProjects/Fantastic-Engine/app/src/main/res/layout/mainpage2_button1.xml" value="0.24947916666666667" />
+        <entry key="..\:/AndroidStudioProjects/Fantastic-Engine/app/src/main/res/layout/mainpage2_button2.xml" value="0.24947916666666667" />
+        <entry key="..\:/AndroidStudioProjects/Fantastic-Engine/app/src/main/res/layout/mainpage2_buttons.xml" value="0.24947916666666667" />
         <entry key="..\:/AndroidStudioProjects/Fantastic-Engine/app/src/main/res/layout/mainpage3.xml" value="0.24947916666666667" />
         <entry key="..\:/AndroidStudioProjects/Fantastic-Engine/app/src/main/res/layout/mainpage3_button1.xml" value="0.24947916666666667" />
         <entry key="..\:/AndroidStudioProjects/Fantastic-Engine/app/src/main/res/layout/mainpage3_button2.xml" value="0.24947916666666667" />
         <entry key="..\:/AndroidStudioProjects/Fantastic-Engine/app/src/main/res/layout/mainpage3_button2_1.xml" value="0.24947916666666667" />
+        <entry key="..\:/AndroidStudioProjects/Fantastic-Engine/app/src/main/res/layout/mainpage3_button2_2.xml" value="0.24947916666666667" />
+        <entry key="..\:/AndroidStudioProjects/Fantastic-Engine/app/src/main/res/layout/mainpage3_button2_3.xml" value="0.24947916666666667" />
         <entry key="..\:/AndroidStudioProjects/Fantastic-Engine/app/src/main/res/layout/mainpage4.xml" value="0.24947916666666667" />
         <entry key="..\:/AndroidStudioProjects/Fantastic-Engine/app/src/main/res/layout/mainpage4_button1_1.xml" value="0.24947916666666667" />
         <entry key="..\:/AndroidStudioProjects/Fantastic-Engine/app/src/main/res/layout/mainpage4_button2_1.xml" value="0.24947916666666667" />
@@ -34,6 +40,8 @@
         <entry key="..\:/AndroidStudioProjects/Fantastic-Engine/app/src/main/res/layout/mainpage5_5.xml" value="0.24947916666666667" />
         <entry key="..\:/AndroidStudioProjects/Fantastic-Engine/app/src/main/res/layout/mainpage5_6.xml" value="0.24947916666666667" />
         <entry key="..\:/AndroidStudioProjects/Fantastic-Engine/app/src/main/res/layout/mainpage5_7.xml" value="0.24947916666666667" />
+        <entry key="..\:/AndroidStudioProjects/Fantastic-Engine/app/src/main/res/layout/mainpage5_popup1.xml" value="0.24947916666666667" />
+        <entry key="..\:/AndroidStudioProjects/Fantastic-Engine/app/src/main/res/layout/mainpage5_popup2.xml" value="0.24947916666666667" />
         <entry key="..\:/AndroidStudioProjects/Fantastic-Engine/app/src/main/res/layout/mainpage6.xml" value="0.24947916666666667" />
         <entry key="..\:/AndroidStudioProjects/Fantastic-Engine/app/src/main/res/layout/mainpage6_1.xml" value="0.24947916666666667" />
         <entry key="..\:/AndroidStudioProjects/Fantastic-Engine/app/src/main/res/layout/mainpage6_2_1.xml" value="0.24947916666666667" />
@@ -129,6 +137,15 @@
         <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage9_button2.xml" value="0.17806484295845998" />
         <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/mainpage9_buttons.xml" value="0.17806484295845998" />
         <entry key="..\:/Fantastic-Engine/app/src/main/res/layout/namepopup.xml" value="0.2526041666666667" />
+        <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/deathending1.xml" value="0.1933876811594203" />
+        <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage010.xml" value="0.25" />
+        <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage010_1.xml" value="0.22056159420289856" />
+        <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage010_2.xml" value="0.22056159420289856" />
+        <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage011.xml" value="0.22056159420289856" />
+        <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage011_1.xml" value="0.22056159420289856" />
+        <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage011_button1.xml" value="0.22056159420289856" />
+        <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage011_button2.xml" value="0.22056159420289856" />
+        <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage011_button3.xml" value="0.22056159420289856" />
         <entry key="..\:/app/jongha/projects/Fantastic-Engine/app/src/main/res/layout/mainpage011_buttons.xml" value="0.23641304347826086" />
         <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/MainPage1.xml" value="0.23641304347826086" />
         <entry key="..\:/app/jongha/projects/TeamProject/app/src/main/res/layout/activity_main.xml" value="0.25" />

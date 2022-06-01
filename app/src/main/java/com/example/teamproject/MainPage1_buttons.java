@@ -3,6 +3,7 @@ package com.example.teamproject;
 import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -17,6 +18,7 @@ import java.util.Random;
 
 public class MainPage1_buttons extends Activity {
 
+    String name = "";
     Button btn_rd1;
     Button btn_rd2;
     Button btn_rd3;
@@ -25,6 +27,8 @@ public class MainPage1_buttons extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        SharedPreferences pref = getSharedPreferences("name", MODE_PRIVATE);    // token 이름의 기본모드 설정
+        name = pref.getString("name", "");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainpage1_buttons);
         Random rs = new Random();
@@ -46,7 +50,7 @@ public class MainPage1_buttons extends Activity {
         String[] randomBtn2 = getResources().getStringArray(R.array.mp1_rdbtn2);
         Random random2 = new Random();
         int n2 = random2.nextInt(randomBtn2.length - 0);
-        btn_rd2.setText(randomBtn2[n2]);
+        btn_rd2.setText(name+randomBtn2[n2]);
 
         String[] randomBtn3 = getResources().getStringArray(R.array.mp1_rdbtn3);
         Random random3 = new Random();

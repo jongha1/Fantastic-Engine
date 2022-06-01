@@ -13,7 +13,7 @@
     <string name="mp1_text4">갇힌 무리들을 바라보니 절망에 찬 눈길만 돌아온다.</string>
 
     <string name="mp1_btn1">쇠창살 사이</string>
-    <string name="mp1_btn2">\'이름\'의 주머니</string>
+    <string name="mp1_btn2">의 주머니</string>
     <string name="mp1_btn3">갇힌 무리들</string>
 
     <string-array name="mp1_rdbtn1">
@@ -22,9 +22,9 @@
         <item>쇠창살 사이3</item>
     </string-array>
     <string-array name="mp1_rdbtn2">
-        <item>\'이름\'의 주머니</item>
-        <item>\'이름\'의 주머니2</item>
-        <item>\'이름\'의 주머니3</item>
+        <item>의 주머니</item>
+        <item>의 주머니2</item>
+        <item>의 주머니3</item>
     </string-array>
     <string-array name="mp1_rdbtn3">
         <item>갇힌 무리들</item>
@@ -124,7 +124,7 @@
     <string name="mp9_btn2">오른쪽</string>
 
     //메인페이지9-1
-    <string name="mp9_text4">시끄러운 경보음 소리가 귀가 따가울 정도로 들린다. 공포에 질린 \'이름\'은 화장실 문을 닫고 숨을 헐떡거린다. (hp 깎임) 총소리와 함께 문을 부수는 소리가 들린다. \'이름\'의 눈앞이 캄캄해진다.</string> //죽음 엔딩
+    <string name="mp9_text4">시끄러운 경보음 소리가 귀가 따가울 정도로 들린다.공포에 질린 \'이름\'은 화장실 문을 닫고 숨을 헐떡거린다. (hp 깎임) 총소리와 함께 문을 부수는 소리가 들린다.\'이름\'의 눈앞이 캄캄해진다.</string> //죽음 엔딩
 
     //메인페이지10
     <string name="mp10_text1">아무도 없는 화장실이다. \'이름\'은 두 칸 다 비어 있는 화장실을 확인하고 물을 틀어 마신다. (hp 크게 회복) </string>

@@ -3,10 +3,13 @@ package com.example.teamproject;
 import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
+import android.widget.TextView;
+
 import androidx.appcompat.app.AlertDialog;
 
 public class MainPage8 extends Activity {
@@ -16,8 +19,12 @@ public class MainPage8 extends Activity {
     private ProgressBar progress;
     int HP;
     //
+    TextView textView;
+    String name = "";
     @Override
     protected void onCreate(Bundle savedInstanceState){
+        SharedPreferences pref = getSharedPreferences("name", MODE_PRIVATE);
+        name = pref.getString("name", "");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainpage8);
         //
@@ -27,7 +34,8 @@ public class MainPage8 extends Activity {
         progress.setProgress(HP);
         //
         btn_sub = findViewById(R.id.btn1);
-
+        textView = findViewById(R.id.text1);
+        textView.setText("나가기는 충분하지만, 협박과 탈출할 수 있을지 고민하던 " +name+"은 긴장하며 시간을 센다.");
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

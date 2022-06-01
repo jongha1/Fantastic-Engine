@@ -3,10 +3,13 @@ package com.example.teamproject;
 import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
+import android.widget.TextView;
+
 import androidx.appcompat.app.AlertDialog;
 
 public class MainPage7_4 extends Activity {
@@ -16,8 +19,13 @@ public class MainPage7_4 extends Activity {
     private ProgressBar progress;
     int HP;
     //
+    TextView textView;
+    String name = "";
+
     @Override
     protected void onCreate(Bundle savedInstanceState){
+        SharedPreferences pref = getSharedPreferences("name", MODE_PRIVATE);
+        name = pref.getString("name", "");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainpage7_4);
         //
@@ -31,7 +39,9 @@ public class MainPage7_4 extends Activity {
         intent.putExtra("currHP",HP);
         //
         btn_sub = findViewById(R.id.btn1);
-
+        textView = findViewById(R.id.text1);
+        textView.setText("((237) 694-873-695가 표시되는 팝업 표시)" +name+"은 자신이 적어 둔 대사관 번호를 기억해낸다." +
+                        " (hp 회복) 재빠르게 핸드폰을 켠 "+ name+"은 전화번호를 누른다. (통화 연결되는 음-달칵이며 받았다는 음)");
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
