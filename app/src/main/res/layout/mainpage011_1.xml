@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/gray"
+    android:background="#232323"
     tools:ignore="MissingDefaultResource">
 
     <ProgressBar
@@ -16,7 +16,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/main4"
+        android:src="@drawable/main10_11"
         android:layout_gravity="center"
         android:adjustViewBounds="true"
         android:background="@color/teal_200"
@@ -29,7 +29,8 @@
         android:text="@string/mp11_text5"
         android:textSize="19sp"
         android:textStyle="bold"
-        android:textColor="@color/black"
+        android:textColor="#C1C1C1"
+        android:fontFamily="@font/dunggeunmo"
         android:layout_margin="20dp"
         />
 

@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/gray">
+    android:background="#E3E3E3">
 
     <ProgressBar
         android:id="@+id/main1btn1Progressbar"
@@ -14,7 +14,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/main4"
+        android:src="@drawable/main1_3"
         android:adjustViewBounds="true"
         android:background="@color/teal_200"
         />
@@ -27,22 +27,26 @@
         android:textStyle="bold"
         android:textColor="@color/black"
         android:layout_margin="50dp"
+        android:fontFamily="@font/dunggeunmo"
         />
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="bottom|center_horizontal">
-    <Button
-        android:id="@+id/btn1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btn2"
-        android:backgroundTint="#FFFFFF"
-        android:textColor="@color/black"
-        android:layout_marginBottom="30dp"
-        />
-</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center_horizontal">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="@string/btn2"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+
+
 
 
 </LinearLayout>

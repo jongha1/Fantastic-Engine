@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/gray">
+    android:background="#E3E3E3">
 
     <ProgressBar
         android:id="@+id/progressBar5"
@@ -14,7 +14,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/main4"
+        android:src="@drawable/main1_3"
         android:layout_gravity="center"
         android:adjustViewBounds="true"
         android:background="@color/teal_200"
@@ -32,6 +32,7 @@
         android:layout_marginRight="30dp"
         android:backgroundTint="#FFFFFF"
         android:textColor="@color/black"
+        android:fontFamily="@font/dunggeunmo"
         android:layout_gravity="center"
         />
 
