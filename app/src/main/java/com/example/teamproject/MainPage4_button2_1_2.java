@@ -17,9 +17,9 @@ public class MainPage4_button2_1_2 extends Activity {
     Button btn_sub;
     private ProgressBar progress;
     int HP;
-
     String name="";
     TextView tv_mainpage4_2_1_2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState){
         SharedPreferences pref = getSharedPreferences("name", MODE_PRIVATE);    // token 이름의 기본모드 설정
@@ -36,6 +36,12 @@ public class MainPage4_button2_1_2 extends Activity {
 
         btn_sub = findViewById(R.id.btn1);
 
+        tv_mainpage4_2_1_2 = findViewById(R.id.tv_mainpage4_2_1_2);
+        tv_mainpage4_2_1_2.setText(name+"은 주의 깊게 열쇠를 바라본다. 놀랍게도 모두 같은 모양의 열쇠들이다. "+
+                "당장 쓸 수 없는 열쇠를 내려다 보던 "+name+"은 아무도 찾지 않는 독방에서 뜬눈으로 새벽을 보낸다." +
+                " 새벽 두 시, "+name+"은 독방에서 수용소를 향한 폭격에 의해 사망한다. (hp 다 깎이게 하기," +
+                " 성급하게 결정하지 마세요, 죽음 엔딩 1)");
+
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -44,12 +50,6 @@ public class MainPage4_button2_1_2 extends Activity {
                 startActivity(intent);
             }
         });
-        tv_mainpage4_2_1_2 = findViewById(R.id.tv_mainpage4_2_1_2);
-
-        tv_mainpage4_2_1_2.setText(name+"은 주의 깊게 열쇠를 바라본다. 놀랍게도 모두 같은 모양의 열쇠들이다. "+
-                                    "당장 쓸 수 없는 열쇠를 내려다 보던 "+name+"은 아무도 찾지 않는 독방에서 뜬눈으로 새벽을 보낸다." +
-                                    " 새벽 두 시, "+name+"은 독방에서 수용소를 향한 폭격에 의해 사망한다. (hp 다 깎이게 하기," +
-                                    " 성급하게 결정하지 마세요, 죽음 엔딩 1)");
 
     }
 //    @Override

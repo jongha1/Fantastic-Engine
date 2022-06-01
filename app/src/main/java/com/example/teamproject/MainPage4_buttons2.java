@@ -11,9 +11,9 @@ import androidx.appcompat.app.AlertDialog;
 
 public class MainPage4_buttons2 extends Activity {
 
+    Button btn_sub1;
     Button btn_sub2;
     Button btn_sub3;
-    Button btn_sub4;
     //
     private ProgressBar progress;
     int HP;
@@ -28,11 +28,11 @@ public class MainPage4_buttons2 extends Activity {
         progress = (ProgressBar)findViewById(R.id.progressBar22);
         progress.setProgress(HP);
         //
-        btn_sub2 = findViewById(R.id.btn2);
-        btn_sub3 = findViewById(R.id.btn3);
-        btn_sub4 = findViewById(R.id.btn4);
+        btn_sub1 = findViewById(R.id.btn2);
+        btn_sub2 = findViewById(R.id.btn3);
+        btn_sub3 = findViewById(R.id.btn4);
 
-        btn_sub2.setOnClickListener(new View.OnClickListener() {
+        btn_sub1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), MainPage4_button2_1.class);
@@ -43,7 +43,7 @@ public class MainPage4_buttons2 extends Activity {
             }
         });
 
-        btn_sub3.setOnClickListener(new View.OnClickListener() {
+        btn_sub2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), MainPage4_button2_2.class);
@@ -54,7 +54,7 @@ public class MainPage4_buttons2 extends Activity {
             }
         });
 
-        btn_sub4.setOnClickListener(new View.OnClickListener() {
+        btn_sub3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), MainPage4_button3.class);

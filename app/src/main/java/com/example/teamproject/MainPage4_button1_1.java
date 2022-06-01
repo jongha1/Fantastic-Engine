@@ -31,7 +31,11 @@ public class MainPage4_button1_1 extends Activity {
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                finish();
+                Intent intent = new Intent(getApplicationContext(), MainPage4_buttons1.class);
+                //
+                intent.putExtra("currHP",HP);
+                //
+                startActivity(intent);
             }
         });
     }

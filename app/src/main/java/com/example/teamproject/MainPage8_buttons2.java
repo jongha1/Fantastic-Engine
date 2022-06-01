@@ -30,7 +30,13 @@ public class MainPage8_buttons2 extends Activity {
 
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) { finish(); }
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), MainPage8_buttons.class);
+                //
+                intent.putExtra("currHP",HP);
+                //
+                startActivity(intent);
+            }
         });
     }
 //    @Override

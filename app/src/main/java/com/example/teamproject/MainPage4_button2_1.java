@@ -13,8 +13,6 @@ public class MainPage4_button2_1 extends Activity {
 
     Button btn_sub1;
     Button btn_sub2;
-    Button btn_sub3;
-    Button btn_sub4;
     //
     private ProgressBar progress;
     int HP;
@@ -37,6 +35,9 @@ public class MainPage4_button2_1 extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), MainPage4_button2_1_1.class);
+                //
+                intent.putExtra("currHP",HP);
+                //
                 startActivity(intent);
             }
         });
