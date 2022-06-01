@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
 
@@ -32,17 +33,21 @@ public class MainPage5_4 extends Activity {
         //
         btn_sub = findViewById(R.id.btn1);
         editText = findViewById(R.id.edit1);
+
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), MainPage6.class);
-                //
-                intent.putExtra("currHP",HP);
-                //
-                startActivity(intent);
+                if(editText.getText().toString().equals("0620")) {
+                    Intent intent = new Intent(getApplicationContext(), MainPage6.class);
+                    intent.putExtra("currHP",HP);
+                    startActivity(intent);
+                } else {
+                    Toast.makeText(MainPage5_4.this, "비밀번호가 틀렸습니다.", Toast.LENGTH_SHORT).show();
+                }
             }
         });
     }
+
 
 
 //    @Override
