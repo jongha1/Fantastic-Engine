@@ -3,7 +3,6 @@ package com.example.teamproject;
 import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -15,16 +14,11 @@ import java.util.jar.Attributes;
 public class StartPage extends Activity {
 
     Button btn_sub;
-    MediaPlayer mediaPlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.startpage);
-        //음악 재생
-        mediaPlayer = MediaPlayer.create(this, R.raw.music1);
-        mediaPlayer.setLooping(true); //무한재생
-        mediaPlayer.start();
 
         btn_sub = findViewById(R.id.btn1);
 
