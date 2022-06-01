@@ -22,6 +22,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:textColor="#C1C1C1"
+        android:fontFamily="@font/dunggeunmo"
         android:layout_margin="50dp"
         />
 

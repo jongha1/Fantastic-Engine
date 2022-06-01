@@ -23,6 +23,7 @@
         android:textSize="20sp"
         android:textColor="@color/black"
         android:fontFamily="@font/dunggeunmo"
+        android:textStyle="bold"
         android:layout_margin="20dp"
         />
 

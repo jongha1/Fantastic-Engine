@@ -24,6 +24,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:textColor="#E6E6E6"
+        android:fontFamily="@font/dunggeunmo"
         android:layout_margin="20dp"
         />
 

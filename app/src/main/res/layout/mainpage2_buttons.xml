@@ -26,6 +26,7 @@
         android:layout_marginRight="30dp"
         android:backgroundTint="#FFFFFF"
         android:textColor="@color/black"
+        android:fontFamily="@font/dunggeunmo"
         android:layout_gravity="center"
         />
 

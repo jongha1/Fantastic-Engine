@@ -28,6 +28,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         android:layout_margin="50dp"
+        android:fontFamily="@font/dunggeunmo"
         />
 
 
