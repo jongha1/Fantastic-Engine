@@ -26,8 +26,6 @@
         android:background="@color/teal_200"
         />
 
-
-
     <Button
         android:id="@+id/btn1"
         android:layout_width="match_parent"
