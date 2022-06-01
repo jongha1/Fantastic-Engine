@@ -1,10 +1,12 @@
 package com.example.teamproject;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.Vibrator;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
@@ -26,6 +28,9 @@ public class MainPage4_button2_1_2 extends Activity {
         name = pref.getString("name", "");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainpage4_button2_1_2);
+        //진동
+        Vibrator vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+        vibrator.vibrate(500);
 
         Intent HPintent = getIntent();  // intent를 가져오는 형식으로 초기화
         HP = HPintent.getIntExtra("currHP",100);
