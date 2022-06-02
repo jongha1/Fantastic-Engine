@@ -99,10 +99,11 @@
         <activity android:name=".MainPage12_2" />
         <activity android:name=".MainPage12_3" />
         <activity android:name=".MainPage1_s" />
-        <activity android:name=".MainPage2_s" />
         <activity android:name=".MainPage4_s" />
-        <activity android:name=".MainPage3_s" />
         <activity android:name=".MainPage5_s" />
+        <activity android:name=".MainPage9_s" />
+        <activity android:name=".MainPage10_s" />
+        <activity android:name=".MainPage12_s" />
 
     </application>
 
