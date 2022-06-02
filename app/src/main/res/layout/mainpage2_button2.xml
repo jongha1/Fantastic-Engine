@@ -21,7 +21,7 @@
         />
 
     <TextView
-        android:id="@+id/tv_mainpage2_2"
+        android:id="@+id/text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/mp2_text3"
