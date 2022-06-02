@@ -47,7 +47,7 @@ public class NamePopup extends Activity {
             editor.putString("name",name); // key,value 형식으로 저장
             editor.commit();    //최종 커밋. 커밋을 해야 저장이 된다.
 
-            Intent intent = new Intent(getApplicationContext(), MainPage1.class);
+            Intent intent = new Intent(getApplicationContext(), MainPage1_s.class);
             startActivity(intent);
         }
     };
