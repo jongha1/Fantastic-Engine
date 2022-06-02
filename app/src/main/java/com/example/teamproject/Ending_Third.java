@@ -1,23 +1,19 @@
 package com.example.teamproject;
 
 import android.app.Activity;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import androidx.appcompat.app.AlertDialog;
-
-public class MainPage12_3 extends Activity {
+public class Ending_Third extends Activity {
 
     Button btn_sub;
     //
-    private ProgressBar progress;
-    int HP;
+//    private ProgressBar progress;
+//    int HP;
     //
     TextView textView;
     String name = "";
@@ -27,24 +23,24 @@ public class MainPage12_3 extends Activity {
         SharedPreferences pref = getSharedPreferences("name", MODE_PRIVATE);
         name = pref.getString("name", "");
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mainpage012_3);
+        setContentView(R.layout.ending_third);
         //
-        Intent HPintent = getIntent();  // intent를 가져오는 형식으로 초기화
-        HP = HPintent.getIntExtra("currHP",100);
-        progress = (ProgressBar)findViewById(R.id.progressBar64);
-        progress.setProgress(HP);
+//        Intent HPintent = getIntent();  // intent를 가져오는 형식으로 초기화
+//        HP = HPintent.getIntExtra("currHP",100);
+//        progress = findViewById(R.id.progressBar64);
+//        progress.setProgress(HP);
         //
         btn_sub = findViewById(R.id.btn1);
         textView = findViewById(R.id.text1);
-        textView.setText(name+"은 속으로 한숨을 내뱉으며 군인들의 눈에 띄지 않게 출구를 찾는다. " +
-                name+"은 모든 신에게 기도하며 가장 큰 문으로 다가간다. '제발, 제발!' " +
-                "주머니 속에서 열쇠를 꺼내 구멍에 꽂아 돌린다. 밤이라 어두웠지만, " +name+"의 눈앞은 환하게 밝혀지는 것 같았다.");
+        textView.setText("\""+name+"씨! 괜찮으십니까? "+name+"씨!\" 지프에 간신히 타 숨을 쌕쌕 내쉬던 " +
+                name+"은 익숙한 언어와 안도감에 눈을 감는다. \"피를 이미 많이 흘렸어. 응급이야. 얼른 가자.\" " +
+                "사람들이 크게 소리지른다. 불편한 탑승감에도 "+name+"은 좀처럼 깨지 못한다.");
 
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), MainPage13.class);
-                intent.putExtra("currHP",HP);
+                Intent intent = new Intent(getApplicationContext(), Finish.class);
+//                intent.putExtra("currHP",HP);
                 startActivity(intent);
             }
         });

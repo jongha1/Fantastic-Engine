@@ -16,7 +16,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/main12"
+        android:src="@drawable/main13"
         android:layout_gravity="center"
         android:adjustViewBounds="true"
         android:background="@color/teal_200"

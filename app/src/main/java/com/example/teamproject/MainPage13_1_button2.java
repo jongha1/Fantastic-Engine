@@ -1,7 +1,6 @@
 package com.example.teamproject;
 
 import android.app.Activity;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -10,9 +9,7 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import androidx.appcompat.app.AlertDialog;
-
-public class MainPage12_3 extends Activity {
+public class MainPage13_1_button2 extends Activity {
 
     Button btn_sub;
     //
@@ -27,23 +24,24 @@ public class MainPage12_3 extends Activity {
         SharedPreferences pref = getSharedPreferences("name", MODE_PRIVATE);
         name = pref.getString("name", "");
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mainpage012_3);
+        setContentView(R.layout.mainpage013_1_button2);
         //
         Intent HPintent = getIntent();  // intent를 가져오는 형식으로 초기화
         HP = HPintent.getIntExtra("currHP",100);
-        progress = (ProgressBar)findViewById(R.id.progressBar64);
+        progress = findViewById(R.id.progressBar72);
         progress.setProgress(HP);
         //
         btn_sub = findViewById(R.id.btn1);
         textView = findViewById(R.id.text1);
-        textView.setText(name+"은 속으로 한숨을 내뱉으며 군인들의 눈에 띄지 않게 출구를 찾는다. " +
-                name+"은 모든 신에게 기도하며 가장 큰 문으로 다가간다. '제발, 제발!' " +
-                "주머니 속에서 열쇠를 꺼내 구멍에 꽂아 돌린다. 밤이라 어두웠지만, " +name+"의 눈앞은 환하게 밝혀지는 것 같았다.");
+        textView.setText("'알 바 없다. 일단 뛰자!' "+name+"은 입술을 짓씹은 채 앞으로 뛰어나간다. " +
+                "어둠 속에서 핸드폰이 한번 진동한다. 그를 재빠르게 쫓는 군인 때문에 확인할 시간은 없다. " +
+                name+"은 오직 앞으로 숨이 차 죽을 때까지 뛴다. 어둠 속에서 지프가 보인다.");
 
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), MainPage13.class);
+
+                Intent intent = new Intent(getApplicationContext(), Ending_Third.class);
                 intent.putExtra("currHP",HP);
                 startActivity(intent);
             }
