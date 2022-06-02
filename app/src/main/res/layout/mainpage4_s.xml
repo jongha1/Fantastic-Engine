@@ -7,6 +7,6 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/m4"
+        android:background="@drawable/m2"
         />
 </LinearLayout>

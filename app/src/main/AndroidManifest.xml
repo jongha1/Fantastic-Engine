@@ -103,18 +103,6 @@
         <activity android:name=".MainPage4_s" />
         <activity android:name=".MainPage3_s" />
         <activity android:name=".MainPage5_s" />
-        <activity android:name=".MainPage13" />
-        <activity android:name=".MainPage13_1" />
-        <activity android:name=".MainPage13_1_button1" />
-        <activity android:name=".MainPage13_1_button2" />
-        <activity android:name=".MainPage13_1_buttons" />
-        <activity android:name=".MainPage13_button1" />
-        <activity android:name=".MainPage13_button2" />
-        <activity android:name=".MainPage13_buttons" />
-        <activity android:name=".Ending_First" />
-        <activity android:name=".Ending_Second" />
-        <activity android:name=".Ending_Third" />
-        <activity android:name=".Finish" />
 
     </application>
 
