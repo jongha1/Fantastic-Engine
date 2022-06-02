@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:ignore="MissingDefaultResource">
+
+    <ProgressBar
+        android:id="@+id/progressBar21"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/main12"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@color/teal_200"
+        />
+
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mp13_1_btn1"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mp13_1_btn2"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>
