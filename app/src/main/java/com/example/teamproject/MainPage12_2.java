@@ -5,6 +5,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import androidx.appcompat.app.AlertDialog;
@@ -19,13 +20,9 @@ public class MainPage12_2 extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mainpage012_2);
-        //
-        Intent HPintent = getIntent();  // intent를 가져오는 형식으로 초기화
-        HP = HPintent.getIntExtra("currHP",100);
-        progress = (ProgressBar)findViewById(R.id.progressBar63);
-        progress.setProgress(HP);
-        //
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        setContentView(R.layout.mainpage12popup);
+
         btn_sub = findViewById(R.id.btn1);
 
         btn_sub.setOnClickListener(new View.OnClickListener() {

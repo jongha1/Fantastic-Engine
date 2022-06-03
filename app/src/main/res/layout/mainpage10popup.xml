@@ -2,9 +2,11 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="310dp"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="@drawable/main4_8">
+    android:background="@drawable/main10_11"
+    tools:context=".MainPage8_popup1">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -12,11 +14,11 @@
         android:layout_marginTop="85dp"
         android:layout_marginBottom="85dp"
         android:orientation="vertical">
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="550dp"
-        android:background="@drawable/celphoneshape"
-        android:layout_gravity="center" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:background="@drawable/celphoneshape"
+            android:layout_gravity="center" />
 
     </LinearLayout>
     <LinearLayout
@@ -46,24 +48,25 @@
             android:background="@color/black" />
     </LinearLayout>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal|center"
-            android:text="UPEBZ, EBNQ, CPNC, BN 2"
-            android:textSize="17sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center"
+        android:gravity="center_horizontal"
+        android:text="정확한 위치를 파악해야 하니 gps를 켜 주십쇼.\n-대사관-"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
 
-        <Button
-            android:id="@+id/btn1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom|center"
-            android:backgroundTint="#D3AA81"
-            android:layout_marginBottom="170dp"
-            android:text="확인"
-            android:textColor="@color/black" />
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:backgroundTint="#D3AA81"
+        android:layout_marginBottom="170dp"
+        android:text="확인"
+        android:textColor="@color/black" />
 
 
 </FrameLayout>

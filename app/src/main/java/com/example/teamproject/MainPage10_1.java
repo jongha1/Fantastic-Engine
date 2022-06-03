@@ -31,7 +31,7 @@ public class MainPage10_1 extends Activity {
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), MainPage10_2.class);
+                Intent intent = new Intent(getApplicationContext(), MainPage10_popup1.class);
                 //
                 intent.putExtra("currHP",HP);
                 //
