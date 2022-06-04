@@ -40,10 +40,23 @@ public class MainPage13_1_button2 extends Activity {
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Intent intent = new Intent(getApplicationContext(), Ending_Third.class);
-                intent.putExtra("currHP",HP);
-                startActivity(intent);
+                if (HP <= 0) {
+                    Intent intent = new Intent(getApplicationContext(), deathending1.class);
+                    intent.putExtra("currHP", HP);
+                    startActivity(intent);
+                } else if (HP <= 25) {
+                    Intent intent = new Intent(getApplicationContext(), Ending_First.class);
+                    intent.putExtra("currHP", HP);
+                    startActivity(intent);
+                } else if (HP <= 50) {
+                    Intent intent = new Intent(getApplicationContext(), Ending_Second.class);
+                    intent.putExtra("currHP", HP);
+                    startActivity(intent);
+                } else {
+                    Intent intent = new Intent(getApplicationContext(), Ending_Third.class);
+                    intent.putExtra("currHP", HP);
+                    startActivity(intent);
+                }
             }
         });
     }

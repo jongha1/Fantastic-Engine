@@ -22,7 +22,12 @@ public class MainPage12_2 extends Activity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.mainpage12popup);
-
+        //
+        Intent HPintent = getIntent();  // intent를 가져오는 형식으로 초기화
+        HP = HPintent.getIntExtra("currHP",100);
+        progress = (ProgressBar)findViewById(R.id.progressBar63);
+        progress.setProgress(HP);
+        //
         btn_sub = findViewById(R.id.btn1);
 
         btn_sub.setOnClickListener(new View.OnClickListener() {

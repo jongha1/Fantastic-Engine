@@ -37,8 +37,12 @@ public class MainPage4 extends Activity {
         //
         Intent HPintent = getIntent();  // intent를 가져오는 형식으로 초기화
         HP = HPintent.getIntExtra("currHP",100);
+
+        HP += 10;
         progress = (ProgressBar)findViewById(R.id.progressBar13);
         progress.setProgress(HP);
+        Intent intent = new Intent(getApplicationContext(), MainPage4_s.class);
+        intent.putExtra("currHP",HP);
         //
         btn_sub1 = findViewById(R.id.btn1);
         tv_mainpage4 = findViewById(R.id.tv_mainpage4);

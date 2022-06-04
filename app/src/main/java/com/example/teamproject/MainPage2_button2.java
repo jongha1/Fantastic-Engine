@@ -37,7 +37,7 @@ public class MainPage2_button2 extends Activity {
         Intent HPintent = getIntent();  // intent를 가져오는 형식으로 초기화
         HP = HPintent.getIntExtra("currHP",100);
 
-        HP -= 20;
+        HP -= 30;
         progress = (ProgressBar)findViewById(R.id.progressBar4);
         progress.setProgress(HP);
         Intent intent = new Intent(getApplicationContext(), MainPage2_buttons.class);

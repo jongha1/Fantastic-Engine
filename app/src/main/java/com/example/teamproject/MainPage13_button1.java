@@ -28,8 +28,12 @@ public class MainPage13_button1 extends Activity {
         //
         Intent HPintent = getIntent();  // intent를 가져오는 형식으로 초기화
         HP = HPintent.getIntExtra("currHP",100);
+
+        HP -= 30;
         progress = findViewById(R.id.progressBar67);
         progress.setProgress(HP);
+        Intent intent = new Intent(getApplicationContext(), MainPage13_buttons.class);
+        intent.putExtra("currHP",HP);
         //
         btn_sub = findViewById(R.id.btn1);
         textView = findViewById(R.id.text1);
@@ -40,10 +44,23 @@ public class MainPage13_button1 extends Activity {
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Intent intent = new Intent(getApplicationContext(), MainPage13_1.class);
-                intent.putExtra("currHP",HP);
-                startActivity(intent);
+                if (HP <= 0) {
+                    Intent intent = new Intent(getApplicationContext(), deathending1.class);
+                    intent.putExtra("currHP", HP);
+                    startActivity(intent);
+                } else if (HP <= 25) {
+                    Intent intent = new Intent(getApplicationContext(), Ending_First.class);
+                    intent.putExtra("currHP", HP);
+                    startActivity(intent);
+                } else if (HP <= 50) {
+                    Intent intent = new Intent(getApplicationContext(), Ending_Second.class);
+                    intent.putExtra("currHP", HP);
+                    startActivity(intent);
+                } else {
+                    Intent intent = new Intent(getApplicationContext(), Ending_Third.class);
+                    intent.putExtra("currHP", HP);
+                    startActivity(intent);
+                }
             }
         });
     }

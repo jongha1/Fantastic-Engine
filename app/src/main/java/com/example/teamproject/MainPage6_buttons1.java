@@ -46,6 +46,9 @@ public class MainPage6_buttons1 extends Activity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), MainPage7.class);
+                //
+                intent.putExtra("currHP",HP);
+                //
                 startActivity(intent);
             }
         });

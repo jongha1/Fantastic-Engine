@@ -33,16 +33,30 @@ public class MainPage13_button2 extends Activity {
         //
         btn_sub = findViewById(R.id.btn1);
         textView = findViewById(R.id.text1);
-        textView.setText(name+"은 몸을 돌려 군인을 바라본다. 군인은 장전된 권총을 다른 손에 쥐고 " +
-                        "핸드폰을 들어 어디론가 전화를 건다. (진동) " +name+"이 지닌 핸드폰에서 진동이 울린다. " +
-                        "군인이 씨익 웃으며 "+name+"을 권총을 든 채로 응시한다. 타앙. 총소리가 들린다.");
+        textView.setText(name+"은 재빠르게 문을 열고 나가 뛴다. 그를 재빠르게 쫓는 군인 때문에 확인할 시간은 없다." +
+                         "어둠 속에서 핸드폰이 한번 진동한다. (진동) 그를 재빠르게 쫓는 군인 때문에 확인할 시간은 없다."
+                         +name+ "은 오직 앞으로 숨이 차 죽을 때까지 뛴다. 어둠 속에서 지프가 보인다.");
 
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Ending_First.class);
-                intent.putExtra("currHP",HP);
-                startActivity(intent);
+                if (HP <= 0) {
+                    Intent intent = new Intent(getApplicationContext(), deathending1.class);
+                    intent.putExtra("currHP", HP);
+                    startActivity(intent);
+                } else if (HP <= 25) {
+                    Intent intent = new Intent(getApplicationContext(), Ending_First.class);
+                    intent.putExtra("currHP", HP);
+                    startActivity(intent);
+                } else if (HP <= 50) {
+                    Intent intent = new Intent(getApplicationContext(), Ending_Second.class);
+                    intent.putExtra("currHP", HP);
+                    startActivity(intent);
+                } else {
+                    Intent intent = new Intent(getApplicationContext(), Ending_Third.class);
+                    intent.putExtra("currHP", HP);
+                    startActivity(intent);
+                }
             }
         });
     }

@@ -39,7 +39,7 @@ public class MainPage2_button1 extends Activity {
         vibrator.vibrate(500);
         //
 
-        HP -= 20;
+        HP -= 30;
         progress = (ProgressBar)findViewById(R.id.progressBar3);
         progress.setProgress(HP);
         Intent intent = new Intent(getApplicationContext(), MainPage2_buttons.class);
