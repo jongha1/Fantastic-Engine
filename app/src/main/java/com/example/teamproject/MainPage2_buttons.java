@@ -13,8 +13,8 @@ import androidx.appcompat.app.AlertDialog;
 
 public class MainPage2_buttons extends Activity {
 
-    Button btn_sub1;
-    Button btn_sub2;
+    ImageButton btn_sub1;
+    ImageButton btn_sub2;
 
     private ProgressBar mainpageBtnBar;
 

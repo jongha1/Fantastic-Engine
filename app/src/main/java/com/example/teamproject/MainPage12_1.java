@@ -17,13 +17,13 @@ import androidx.appcompat.app.AlertDialog;
 
 public class MainPage12_1 extends Activity {
 
+    String name = "";
     ImageButton btn_sub;
     //
     private ProgressBar progress;
     int HP;
     //
     TextView textView;
-    String name = "";
     @Override
     protected void onCreate(Bundle savedInstanceState){
         SharedPreferences pref = getSharedPreferences("name", MODE_PRIVATE);

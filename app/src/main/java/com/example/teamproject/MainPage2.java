@@ -2,6 +2,7 @@ package com.example.teamproject;
 
 import android.app.Activity;
 import android.content.DialogInterface;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
