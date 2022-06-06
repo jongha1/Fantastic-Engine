@@ -6,14 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import androidx.appcompat.app.AlertDialog;
 
 public class MainPage4_buttons2 extends Activity {
 
-    Button btn_sub1;
-    Button btn_sub2;
-    Button btn_sub3;
+    ImageButton btn_sub1;
+    ImageButton btn_sub2;
+    ImageButton btn_sub3;
     //
     private ProgressBar progress;
     int HP;
@@ -28,9 +29,9 @@ public class MainPage4_buttons2 extends Activity {
         progress = (ProgressBar)findViewById(R.id.progressBar22);
         progress.setProgress(HP);
         //
-        btn_sub1 = findViewById(R.id.btn2);
-        btn_sub2 = findViewById(R.id.btn3);
-        btn_sub3 = findViewById(R.id.btn4);
+        btn_sub1 = findViewById(R.id.btn1);
+        btn_sub2 = findViewById(R.id.btn2);
+        btn_sub3 = findViewById(R.id.btn3);
 
         btn_sub1.setOnClickListener(new View.OnClickListener() {
             @Override

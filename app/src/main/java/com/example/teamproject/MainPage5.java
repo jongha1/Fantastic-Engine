@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.os.Vibrator;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.ProgressBar;
 import androidx.appcompat.app.AlertDialog;
@@ -16,7 +17,7 @@ import androidx.appcompat.app.AlertDialog;
 public class MainPage5 extends Activity {
 
     String name="";
-    Button btn_sub;
+    ImageButton btn_sub;
     TextView txtResult;
     //
     private ProgressBar progress;

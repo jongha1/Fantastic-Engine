@@ -5,10 +5,12 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.media.Image;
 import android.os.Bundle;
 import android.os.Vibrator;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
@@ -17,7 +19,7 @@ import androidx.appcompat.app.AlertDialog;
 public class MainPage3_button1 extends Activity {
 
     String name="";
-    Button btn_sub;
+    ImageButton btn_sub;
     private ProgressBar progress;
     int HP;
     TextView tv_mainpage3_1;

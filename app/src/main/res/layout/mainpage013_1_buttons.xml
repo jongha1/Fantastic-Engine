@@ -24,30 +24,30 @@
 
 
 
-    <Button
+    <ImageButton
         android:id="@+id/btn1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/mp13_1_btn1"
-        android:layout_marginTop="100dp"
+        android:layout_width="920px"
+        android:layout_height="70dp"
+        android:src="@drawable/shoot"
+        android:scaleType="fitXY"
+        android:padding="0dp"
+        android:text="@string/btn1"
+        android:layout_marginTop="20dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:backgroundTint="#FFFFFF"
-        android:textColor="@color/black"
-        android:layout_gravity="center"
+        android:background="@android:color/transparent"
         />
 
-    <Button
+    <ImageButton
         android:id="@+id/btn2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/mp13_1_btn2"
-        android:layout_marginTop="30dp"
+        android:layout_width="920px"
+        android:layout_height="70dp"
+        android:src="@drawable/run"
+        android:scaleType="fitXY"
+        android:padding="0dp"
+        android:text="@string/btn1"
+        android:layout_marginTop="20dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:backgroundTint="#FFFFFF"
-        android:textColor="@color/black"
-        android:layout_gravity="center"
+        android:background="@android:color/transparent"
         />
 
 

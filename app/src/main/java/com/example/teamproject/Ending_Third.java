@@ -6,11 +6,12 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class Ending_Third extends Activity {
 
-    Button btn_sub;
+    ImageButton btn_sub;
     //
 //    private ProgressBar progress;
 //    int HP;

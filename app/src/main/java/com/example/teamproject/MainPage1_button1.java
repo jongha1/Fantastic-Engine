@@ -8,13 +8,14 @@ import android.os.Bundle;
 import android.os.Vibrator;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ProgressBar;
 
 import androidx.appcompat.app.AlertDialog;
 
 public class MainPage1_button1 extends Activity {
 
-    Button btn_sub;
+    ImageButton btn_sub;
     private ProgressBar mainpageBtn1Bar;
     int HP;
 

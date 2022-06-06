@@ -6,14 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import androidx.appcompat.app.AlertDialog;
 
 public class MainPage6_buttons1 extends Activity {
 
-    Button btn_sub1;
-    Button btn_sub2;
-    Button btn_sub3;
+    ImageButton btn_sub1;
+    ImageButton btn_sub2;
+    ImageButton btn_sub3;
     //
     private ProgressBar progress;
     int HP;

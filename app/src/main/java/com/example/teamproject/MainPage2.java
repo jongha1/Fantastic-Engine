@@ -7,6 +7,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
@@ -14,7 +15,7 @@ import androidx.appcompat.app.AlertDialog;
 
 public class MainPage2 extends Activity {
     String name = "";
-    Button btn_sub2;
+    ImageButton btn_sub2;
     private ProgressBar progress;
     TextView textView;
 

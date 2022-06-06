@@ -35,41 +35,41 @@
         android:layout_gravity="center"
         />
     -->
-    <Button
+    <ImageButton
+        android:id="@+id/btn1"
+        android:layout_width="920px"
+        android:layout_height="70dp"
+        android:src="@drawable/key"
+        android:scaleType="fitXY"
+        android:padding="0dp"
+        android:text="@string/btn1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:background="@android:color/transparent"
+        />
+    <ImageButton
         android:id="@+id/btn2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="열쇠"
-        android:layout_marginTop="10dp"
+        android:layout_width="920px"
+        android:layout_height="70dp"
+        android:src="@drawable/gun"
+        android:scaleType="fitXY"
+        android:padding="0dp"
+        android:text="@string/btn1"
+        android:layout_marginTop="20dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:backgroundTint="#FFFFFF"
-        android:textColor="@color/black"
-        android:layout_gravity="center"
+        android:background="@android:color/transparent"
         />
-    <Button
+    <ImageButton
         android:id="@+id/btn3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="권총"
-        android:layout_marginTop="10dp"
+        android:layout_width="920px"
+        android:layout_height="70dp"
+        android:src="@drawable/phone1"
+        android:scaleType="fitXY"
+        android:padding="0dp"
+        android:text="@string/btn1"
+        android:layout_marginTop="20dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:backgroundTint="#FFFFFF"
-        android:textColor="@color/black"
-        android:layout_gravity="center"
-        />
-    <Button
-        android:id="@+id/btn4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="핸드폰"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:backgroundTint="#FFFFFF"
-        android:textColor="@color/black"
-        android:layout_gravity="center"
+        android:background="@android:color/transparent"
         />
 
 

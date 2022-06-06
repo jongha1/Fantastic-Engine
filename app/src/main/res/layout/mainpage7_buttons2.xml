@@ -21,30 +21,30 @@
         />
 
 
-    <Button
+    <ImageButton
         android:id="@+id/btn1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/mp7_btn6"
-        android:layout_marginTop="100dp"
+        android:layout_width="920px"
+        android:layout_height="70dp"
+        android:src="@drawable/turnoff"
+        android:scaleType="fitXY"
+        android:padding="0dp"
+        android:text="@string/btn1"
+        android:layout_marginTop="20dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:backgroundTint="#FFFFFF"
-        android:textColor="@color/black"
-        android:layout_gravity="center"
+        android:background="@android:color/transparent"
         />
 
-    <Button
+    <ImageButton
         android:id="@+id/btn2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/mp7_btn7"
-        android:layout_marginTop="30dp"
+        android:layout_width="920px"
+        android:layout_height="70dp"
+        android:src="@drawable/stay"
+        android:scaleType="fitXY"
+        android:padding="0dp"
+        android:text="@string/btn1"
+        android:layout_marginTop="20dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:backgroundTint="#FFFFFF"
-        android:textColor="@color/black"
-        android:layout_gravity="center"
+        android:background="@android:color/transparent"
         />
 
 

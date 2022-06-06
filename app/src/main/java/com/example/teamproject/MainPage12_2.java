@@ -7,12 +7,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import androidx.appcompat.app.AlertDialog;
 
 public class MainPage12_2 extends Activity {
 
-    Button btn_sub;
+    ImageButton btn_sub;
     //
     private ProgressBar progress;
     int HP;
