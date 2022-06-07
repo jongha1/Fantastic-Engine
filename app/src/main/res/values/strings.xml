@@ -24,13 +24,13 @@
     </string-array>
     <string-array name="mp1_rdbtn2">
         <item>의 주머니</item>
-        <item>의 주머니2</item>
-        <item>의 주머니3</item>
+        <item>의 호주머니</item>
+        <item>의 바지주머니</item>
     </string-array>
     <string-array name="mp1_rdbtn3">
         <item>갇힌 무리들</item>
-        <item>갇힌 무리들2</item>
-        <item>갇힌 무리들3</item>
+        <item>갇혀있는 무리들</item>
+        <item>갇힌 무리</item>
     </string-array>
 
     //메인페이지2
