@@ -22,44 +22,84 @@
 
 
 
-    <Button
-        android:id="@+id/rdbtn1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/mp11_btn1"
-        android:layout_marginTop="100dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:backgroundTint="#FFFFFF"
-        android:textColor="@color/black"
-        android:layout_gravity="center"
-        />
+    <FrameLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <ImageButton
+            android:id="@+id/rdbtn1"
+            android:layout_width="920px"
+            android:layout_height="70dp"
+            android:src="@drawable/l2"
+            android:scaleType="fitXY"
+            android:padding="0dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#232323"/>
 
-    <Button
-        android:id="@+id/rdbtn2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/mp11_btn2"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:backgroundTint="#FFFFFF"
-        android:textColor="@color/black"
-        android:layout_gravity="center"
-        />
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="35dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="false"
+            android:text="@string/mp11_btn1"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:ellipsize="marquee">
+        </TextView>
+        <ImageButton
+            android:id="@+id/rdbtn2"
+            android:layout_width="920px"
+            android:layout_height="70dp"
+            android:src="@drawable/l1"
+            android:scaleType="fitXY"
+            android:padding="0dp"
+            android:layout_margin="70dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#232323"/>
 
-    <Button
-        android:id="@+id/rdbtn3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/mp11_btn3"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:backgroundTint="#FFFFFF"
-        android:textColor="@color/black"
-        android:layout_gravity="center"
-        />
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="95dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="false"
+            android:text="@string/mp11_btn2"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:ellipsize="marquee">
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/rdbtn3"
+            android:layout_width="920px"
+            android:layout_height="70dp"
+            android:src="@drawable/l1"
+            android:scaleType="fitXY"
+            android:padding="0dp"
+            android:layout_margin="130dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#232323"/>
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="155dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="false"
+            android:text="나가기를 기다린다"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:singleLine="true">
+        </TextView>
+
+
+
+    </FrameLayout>
 
 
 </LinearLayout>

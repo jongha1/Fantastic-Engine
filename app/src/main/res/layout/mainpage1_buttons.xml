@@ -20,46 +20,84 @@
         android:background="@color/teal_200"
         />
 
+    <FrameLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <ImageButton
+            android:id="@+id/btn1"
+            android:layout_width="920px"
+            android:layout_height="70dp"
+            android:src="@drawable/l2"
+            android:scaleType="fitXY"
+            android:padding="0dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#E3E3E3"/>
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="35dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="false"
+            android:text="쇠창살사이"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:ellipsize="marquee">
+        </TextView>
+        <ImageButton
+            android:id="@+id/btn2"
+            android:layout_width="920px"
+            android:layout_height="70dp"
+            android:src="@drawable/l1"
+            android:scaleType="fitXY"
+            android:padding="0dp"
+            android:layout_margin="70dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#E3E3E3"/>
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="95dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="false"
+            android:text="의 주머니"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:ellipsize="marquee">
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/btn3"
+            android:layout_width="920px"
+            android:layout_height="70dp"
+            android:src="@drawable/l1"
+            android:scaleType="fitXY"
+            android:padding="0dp"
+            android:layout_margin="130dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#E3E3E3"/>
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="155dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="false"
+            android:text="갇힌 무리들"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:ellipsize="none"
+            android:singleLine="true">
+        </TextView>
 
 
-    <Button
-        android:id="@+id/btn1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/mp1_btn1"
-        android:layout_marginTop="100dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:backgroundTint="#FFFFFF"
-        android:textColor="@color/black"
-        android:layout_gravity="center"
-        />
 
-    <Button
-        android:id="@+id/btn2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/mp1_btn2"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:backgroundTint="#FFFFFF"
-        android:textColor="@color/black"
-        android:layout_gravity="center"
-        />
-
-    <Button
-        android:id="@+id/btn3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/mp1_btn3"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:backgroundTint="#FFFFFF"
-        android:textColor="@color/black"
-        android:layout_gravity="center"
-        />
+    </FrameLayout>
 
 
 </LinearLayout>
