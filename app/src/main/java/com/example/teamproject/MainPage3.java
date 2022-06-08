@@ -5,11 +5,13 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.os.Handler;
 
 import androidx.appcompat.app.AlertDialog;
 
@@ -25,6 +27,7 @@ public class MainPage3 extends Activity {
     //
     String name = "";
     TextView tv_mainpage3;
+    TextView timer;
 
 
     @Override
@@ -42,6 +45,28 @@ public class MainPage3 extends Activity {
         btn_sub1 = findViewById(R.id.btn1);
         btn_sub2 = findViewById(R.id.btn2);
         tv_mainpage3 = findViewById(R.id.tv_mainpage3);
+        timer = findViewById(R.id.timer);
+
+        CountDownTimer countDownTimer = new CountDownTimer(10000, 1000) {
+            @Override
+            public void onTick(long millisUntillFinished) {
+                int num = (int) (millisUntillFinished / 1000);
+                timer.setText(Integer.toString(num+1));
+
+            }
+
+            @Override
+            public void onFinish() {
+                // new Handler().postDelayed(new Runnable() { //
+                   // @Override
+                    // public void run() {
+                       // Intent intent = new Intent(MainPage3.this, deathending1.class);
+                       // startActivity(intent);
+                //    }
+                // }, 10000);
+
+            }
+        }.start();
 
         tv_mainpage3.setText("두들겨 맞던 "+name+"의 눈에 반란군이 지닌 물건들이 띈다. 저항할까? 맞아가며 저걸 빼앗을까? (타이머 10초)");
 
