@@ -36,16 +36,17 @@
 
         <TextView
             android:id="@+id/tv1"
-            android:layout_width="wrap_content"
+            android:layout_width="295dp"
             android:layout_height="wrap_content"
-            android:layout_margin="35dp"
             android:layout_gravity="center_horizontal"
+            android:layout_margin="35dp"
             android:clickable="false"
+            android:ellipsize="marquee"
             android:text="쇠창살사이"
             android:textColor="#FFFFFF"
             android:textSize="15sp"
-            android:ellipsize="marquee">
-        </TextView>
+            android:textAlignment="center"
+            ></TextView>
         <ImageButton
             android:id="@+id/btn2"
             android:layout_width="920px"
@@ -59,16 +60,17 @@
 
         <TextView
             android:id="@+id/tv2"
-            android:layout_width="wrap_content"
+            android:layout_width="302dp"
             android:layout_height="wrap_content"
-            android:layout_margin="95dp"
             android:layout_gravity="center_horizontal"
+            android:layout_margin="95dp"
             android:clickable="false"
+            android:ellipsize="marquee"
             android:text="의 주머니"
             android:textColor="#FFFFFF"
             android:textSize="15sp"
-            android:ellipsize="marquee">
-        </TextView>
+            android:textAlignment="center"
+            ></TextView>
 
         <ImageButton
             android:id="@+id/btn3"
@@ -83,17 +85,18 @@
 
         <TextView
             android:id="@+id/tv3"
-            android:layout_width="wrap_content"
+            android:layout_width="297dp"
             android:layout_height="wrap_content"
-            android:layout_margin="155dp"
             android:layout_gravity="center_horizontal"
+            android:layout_margin="155dp"
             android:clickable="false"
+            android:ellipsize="none"
+            android:singleLine="true"
             android:text="갇힌 무리들"
             android:textColor="#FFFFFF"
             android:textSize="15sp"
-            android:ellipsize="none"
-            android:singleLine="true">
-        </TextView>
+            android:textAlignment="center"
+            ></TextView>
 
 
 

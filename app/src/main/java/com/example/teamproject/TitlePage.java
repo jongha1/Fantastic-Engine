@@ -27,7 +27,7 @@ public class TitlePage extends AppCompatActivity {
         btn_main.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), MainPage11_buttons.class);
+                Intent intent = new Intent(getApplicationContext(), StartPage.class);
                 startActivity(intent);
             }
         });
