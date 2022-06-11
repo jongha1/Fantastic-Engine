@@ -45,7 +45,7 @@ public class MainPage5 extends Activity {
 
         tv_mainpage5.setText("아무것도 할 수 있는 게 없다. 이대로 죽을 수밖에 없나? 구석에" +
                             " 쭈그려 앉아 쉬던 " +name+"은 물건이 아무것도 도움이 안 된다는 생각에 빠진다. 생각을 곱씹던 " +
-                            name+"의 주머니 속에서 핸드폰 진동이 울린다. (진동 효과) 캘린더 알림이 잠긴 핸드폰 위에 뜬다.");
+                            name+"의 주머니 속에서 핸드폰 진동이 울린다. 캘린더 알림이 잠긴 핸드폰 위에 뜬다.");
 
 
         btn_sub.setOnClickListener(new View.OnClickListener() {
@@ -60,27 +60,27 @@ public class MainPage5 extends Activity {
         });
     }
 
-//    @Override
-//    public void onBackPressed() {
-//        AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);
-//        alert_ex.setMessage("앱을 닫으시겠습니까?");
-//
-//        alert_ex.setNegativeButton("종료", new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialog, int which) {
-//                finishAffinity();
-//            }
-//        });
-//
-//        alert_ex.setPositiveButton("취소", new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialog, int which) {
-//
-//            }
-//        });
-//        AlertDialog alert = alert_ex.create();
-//        alert.show();
-//
-//    }
+    @Override
+    public void onBackPressed() {
+        AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);
+        alert_ex.setMessage("앱을 닫으시겠습니까?");
+
+        alert_ex.setNegativeButton("종료", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                finishAffinity();
+            }
+        });
+
+        alert_ex.setPositiveButton("취소", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+            }
+        });
+        AlertDialog alert = alert_ex.create();
+        alert.show();
+
+    }
 
 }

@@ -45,7 +45,7 @@ public class MainPage10 extends Activity {
         //
         btn_sub = findViewById(R.id.btn1);
         textView = findViewById(R.id.text1);
-        textView.setText("아무도 없는 화장실이다. " +name+"은 두 칸 다 비어 있는 화장실을 확인하고 물을 틀어 마신다. (hp 크게 회복)");
+        textView.setText("아무도 없는 화장실이다. " +name+"은 두 칸 다 비어 있는 화장실을 확인하고 물을 틀어 마신다.");
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -57,27 +57,27 @@ public class MainPage10 extends Activity {
             }
         });
     }
-//    @Override
-//    public void onBackPressed() {
-//        AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);
-//        alert_ex.setMessage("앱을 닫으시겠습니까?");
-//
-//        alert_ex.setNegativeButton("종료", new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialog, int which) {
-//                finishAffinity();
-//            }
-//        });
-//
-//        alert_ex.setPositiveButton("취소", new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialog, int which) {
-//
-//            }
-//        });
-//        AlertDialog alert = alert_ex.create();
-//        alert.show();
-//
-//    }
+    @Override
+    public void onBackPressed() {
+        AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);
+        alert_ex.setMessage("앱을 닫으시겠습니까?");
+
+        alert_ex.setNegativeButton("종료", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                finishAffinity();
+            }
+        });
+
+        alert_ex.setPositiveButton("취소", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+            }
+        });
+        AlertDialog alert = alert_ex.create();
+        alert.show();
+
+    }
 
 }

@@ -47,7 +47,7 @@ public class MainPage4 extends Activity {
         //
         btn_sub1 = findViewById(R.id.btn1);
         tv_mainpage4 = findViewById(R.id.tv_mainpage4);
-        tv_mainpage4.setText("갇힌 독방에서 " +name+"은 천천히 숨을 고르며 털썩 주저앉는다. (hp 회복) " +name+"은 자기에게 주어진 시간이 많지 않다는 걸 느낀다. "+
+        tv_mainpage4.setText("갇힌 독방에서 " +name+"은 천천히 숨을 고르며 털썩 주저앉는다. " +name+"은 자기에게 주어진 시간이 많지 않다는 걸 느낀다. "+
                                 "독방을 둘러 볼까 하다가도 당장 수용소에서 벗어나고 싶은 마음이 간절하다.");
 
         btn_sub1.setOnClickListener(new View.OnClickListener() {
@@ -62,27 +62,27 @@ public class MainPage4 extends Activity {
         });
 
     }
-//    @Override
-//    public void onBackPressed() {
-//        AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);
-//        alert_ex.setMessage("앱을 닫으시겠습니까?");
-//
-//        alert_ex.setNegativeButton("종료", new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialog, int which) {
-//                finishAffinity();
-//            }
-//        });
-//
-//        alert_ex.setPositiveButton("취소", new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialog, int which) {
-//
-//            }
-//        });
-//        AlertDialog alert = alert_ex.create();
-//        alert.show();
-//
-//    }
+    @Override
+    public void onBackPressed() {
+        AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);
+        alert_ex.setMessage("앱을 닫으시겠습니까?");
+
+        alert_ex.setNegativeButton("종료", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                finishAffinity();
+            }
+        });
+
+        alert_ex.setPositiveButton("취소", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+            }
+        });
+        AlertDialog alert = alert_ex.create();
+        alert.show();
+
+    }
 
 }

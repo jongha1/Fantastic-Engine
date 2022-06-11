@@ -35,9 +35,9 @@ public class MainPage8_1 extends Activity {
         //
         btn_sub = findViewById(R.id.btn1);
         textView = findViewById(R.id.text1);
-        textView.setText("(대사관에서 문자가 날아들어온 내용. 12시까지 수용소 밖으로 지프를 보내겠습니다. 팝업으로) "+
-                name+"은 안도하며 현재 시간을 확인한다. '벌써 열 시 반이라니. 나갈 수 있을까.' " +
-                name+"은 초조해하며 독방 복도의 문을 살며시 열어 본다. 놀랍게도, 끼이익 하는 소리와 함께 문고리가 돌아간다.");
+        textView.setText(name+"은 대사관에서 날아온 문자에 안도하며 현재 시간을 확인한다. '벌써 열 시 반이라니. " +
+                "나갈 수 있을까.' "+name+"은 초조해하며 독방 복도의 문을 살며시 열어 본다. " +
+                "놀랍게도, 끼이익 하는 소리와 함께 문고리가 돌아간다.");
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -49,27 +49,27 @@ public class MainPage8_1 extends Activity {
             }
         });
     }
-//    @Override
-//    public void onBackPressed() {
-//        AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);
-//        alert_ex.setMessage("앱을 닫으시겠습니까?");
-//
-//        alert_ex.setNegativeButton("종료", new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialog, int which) {
-//                finishAffinity();
-//            }
-//        });
-//
-//        alert_ex.setPositiveButton("취소", new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialog, int which) {
-//
-//            }
-//        });
-//        AlertDialog alert = alert_ex.create();
-//        alert.show();
-//
-//    }
+    @Override
+    public void onBackPressed() {
+        AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);
+        alert_ex.setMessage("앱을 닫으시겠습니까?");
+
+        alert_ex.setNegativeButton("종료", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                finishAffinity();
+            }
+        });
+
+        alert_ex.setPositiveButton("취소", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+            }
+        });
+        AlertDialog alert = alert_ex.create();
+        alert.show();
+
+    }
 
 }

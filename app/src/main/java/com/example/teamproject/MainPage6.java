@@ -39,8 +39,7 @@ public class MainPage6 extends Activity {
         tv_mainpage6 = findViewById(R.id.tv_mainpage6);
 
         tv_mainpage6.setText("이게 맞다니. 멍청한 건가? "+name+"은 연락처 하나 없고 메시지는 방금" +
-                " 온 알림이 전부인 핸드폰을 바라본다. "+name+"은 다시 문자를 바라본다. 이게 무슨 뜻일까. " +
-                "(UPEBZ, EBNQ, CPNC, BN 2 라는 텍스트 표출)");
+                " 온 알림이 전부인 핸드폰을 바라본다. "+name+"은 다시 문자를 바라본다. 이게 무슨 뜻일까. ");
 
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,27 +52,27 @@ public class MainPage6 extends Activity {
             }
         });
     }
-//    @Override
-//    public void onBackPressed() {
-//        AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);
-//        alert_ex.setMessage("앱을 닫으시겠습니까?");
-//
-//        alert_ex.setNegativeButton("종료", new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialog, int which) {
-//                finishAffinity();
-//            }
-//        });
-//
-//        alert_ex.setPositiveButton("취소", new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialog, int which) {
-//
-//            }
-//        });
-//        AlertDialog alert = alert_ex.create();
-//        alert.show();
-//
-//    }
+    @Override
+    public void onBackPressed() {
+        AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);
+        alert_ex.setMessage("앱을 닫으시겠습니까?");
+
+        alert_ex.setNegativeButton("종료", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                finishAffinity();
+            }
+        });
+
+        alert_ex.setPositiveButton("취소", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+            }
+        });
+        AlertDialog alert = alert_ex.create();
+        alert.show();
+
+    }
 
 }

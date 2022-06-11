@@ -47,28 +47,29 @@ public class MainPage3 extends Activity {
         tv_mainpage3 = findViewById(R.id.tv_mainpage3);
         timer = findViewById(R.id.timer);
 
-        CountDownTimer countDownTimer = new CountDownTimer(10000, 1000) {
-            @Override
-            public void onTick(long millisUntillFinished) {
-                int num = (int) (millisUntillFinished / 1000);
-                timer.setText(Integer.toString(num+1));
+//        CountDownTimer countDownTimer = new CountDownTimer(10000, 1000) {
+//            @Override
+//            public void onTick(long millisUntillFinished) {
+//                int num = (int) (millisUntillFinished / 1000);
+//                timer.setText(Integer.toString(num));
+//
+//            }
+//
+//            @Override
+//            public void onFinish() {
+////                 new Handler().postDelayed(new Runnable() { //
+//////                    @Override
+////////                     public void run() {
+////////                        Intent intent = new Intent(MainPage3.this, deathending3.class);
+////////                        startActivity(intent);
+////////                    }
+////                 }, 1000);
+//
+//            }
+//        }
+//        .start();
 
-            }
-
-            @Override
-            public void onFinish() {
-                // new Handler().postDelayed(new Runnable() { //
-                   // @Override
-                    // public void run() {
-                       // Intent intent = new Intent(MainPage3.this, deathending1.class);
-                       // startActivity(intent);
-                //    }
-                // }, 10000);
-
-            }
-        }.start();
-
-        tv_mainpage3.setText("두들겨 맞던 "+name+"의 눈에 반란군이 지닌 물건들이 띈다. 저항할까? 맞아가며 저걸 빼앗을까? (타이머 10초)");
+        tv_mainpage3.setText("두들겨 맞던 "+name+"의 눈에 반란군이 지닌 물건들이 띈다. 저항할까? 맞아가며 저걸 빼앗을까?");
 
         btn_sub1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -88,27 +89,27 @@ public class MainPage3 extends Activity {
             }
         });
     }
-//    @Override
-//    public void onBackPressed() {
-//        AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);
-//        alert_ex.setMessage("앱을 닫으시겠습니까?");
-//
-//        alert_ex.setNegativeButton("종료", new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialog, int which) {
-//                finishAffinity();
-//            }
-//        });
-//
-//        alert_ex.setPositiveButton("취소", new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialog, int which) {
-//
-//            }
-//        });
-//        AlertDialog alert = alert_ex.create();
-//        alert.show();
-//
-//    }
+    @Override
+    public void onBackPressed() {
+        AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);
+        alert_ex.setMessage("앱을 닫으시겠습니까?");
+
+        alert_ex.setNegativeButton("종료", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                finishAffinity();
+            }
+        });
+
+        alert_ex.setPositiveButton("취소", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+            }
+        });
+        AlertDialog alert = alert_ex.create();
+        alert.show();
+
+    }
 
 }

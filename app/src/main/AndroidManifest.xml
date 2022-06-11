@@ -25,9 +25,13 @@
             android:name=".NamePopup"
             android:theme="@android:style/Theme.Holo.Dialog" />
         <activity android:name=".deathending1"/>
+        <activity android:name=".deathending3"/>
+        <activity android:name=".deathending6"/>
+        <activity android:name=".deathending7"/>
+        <activity android:name=".deathending9"/>
+        <activity android:name=".deathending11"/>
         <activity android:name=".MainPage1"/>
         <activity android:name=".MainPage1_buttons"/>
-        <activity android:name=".MainPage1_buttons_ext"/>
         <activity android:name=".MainPage1_button1"/>
         <activity android:name=".MainPage1_button2"/>
         <activity android:name=".MainPage1_button3"/>
@@ -72,8 +76,6 @@
         <activity android:name=".MainPage7_3" />
         <activity android:name=".MainPage7_popup1"
             android:theme="@android:style/Theme.Holo.Dialog"/>
-        <activity android:name=".MainPage7_4" />
-        <activity android:name=".MainPage7_5" />
         <activity android:name=".MainPage7_buttons1" />
         <activity android:name=".MainPage7_buttons1_1" />
         <activity android:name=".MainPage7_buttons1_2" />
@@ -105,7 +107,7 @@
         <activity android:name=".MainPage11_buttons" />
         <activity android:name=".MainPage12" />
         <activity android:name=".MainPage12_1" />
-        <activity android:name=".MainPage12_2"
+        <activity android:name=".MainPage12_popup"
             android:theme="@android:style/Theme.Holo.Dialog"/>
         <activity android:name=".MainPage12_3" />
         <activity android:name=".MainPage1_s" />

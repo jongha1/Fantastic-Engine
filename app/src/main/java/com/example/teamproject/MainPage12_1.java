@@ -42,12 +42,12 @@ public class MainPage12_1 extends Activity {
         btn_sub = findViewById(R.id.btn1);
         textView = findViewById(R.id.text1);
         textView.setText(name+"은 화장실에 나와 어색하지 않게 직진으로 걷는다. 품안에서 작은 진동이 울린다." +
-                " (진동 효과) 모자를 다시 푹 눌러 쓰며 자연스럽게 핸드폰을 확인한다.");
+                " 모자를 다시 푹 눌러 쓰며 자연스럽게 핸드폰을 확인한다.");
 
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), MainPage12_2.class);
+                Intent intent = new Intent(getApplicationContext(), MainPage12_popup.class);
                 //
                 intent.putExtra("currHP",HP);
                 //
@@ -55,27 +55,27 @@ public class MainPage12_1 extends Activity {
             }
         });
     }
-//    @Override
-//    public void onBackPressed() {
-//        AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);
-//        alert_ex.setMessage("앱을 닫으시겠습니까?");
-//
-//        alert_ex.setNegativeButton("종료", new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialog, int which) {
-//                finishAffinity();
-//            }
-//        });
-//
-//        alert_ex.setPositiveButton("취소", new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialog, int which) {
-//
-//            }
-//        });
-//        AlertDialog alert = alert_ex.create();
-//        alert.show();
-//
-//    }
+    @Override
+    public void onBackPressed() {
+        AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);
+        alert_ex.setMessage("앱을 닫으시겠습니까?");
+
+        alert_ex.setNegativeButton("종료", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                finishAffinity();
+            }
+        });
+
+        alert_ex.setPositiveButton("취소", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+            }
+        });
+        AlertDialog alert = alert_ex.create();
+        alert.show();
+
+    }
 
 }

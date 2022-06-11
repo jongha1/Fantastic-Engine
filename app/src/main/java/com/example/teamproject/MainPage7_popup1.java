@@ -49,7 +49,7 @@ public class MainPage7_popup1 extends Activity {
         public void onClick(View view) {
              //String name = editText.getText().toString();
 
-            Intent intent = new Intent(getApplicationContext(), MainPage7_4.class);
+            Intent intent = new Intent(getApplicationContext(), MainPage7_2.class);
             //intent.putExtra("name",name); // 이름 받아 넘길때 필요
             //
             intent.putExtra("currHP",HP);

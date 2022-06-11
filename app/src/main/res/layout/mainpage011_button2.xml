@@ -43,7 +43,7 @@
             android:id="@+id/btn1"
             android:layout_width="92dp"
             android:layout_height="45dp"
-            android:src="@drawable/goback"
+            android:src="@drawable/next"
             android:scaleType="fitXY"
             android:padding="0dp"
             android:text="@string/btn1"

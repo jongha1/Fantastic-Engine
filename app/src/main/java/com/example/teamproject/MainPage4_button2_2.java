@@ -46,7 +46,7 @@ public class MainPage4_button2_2 extends Activity {
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), deathending1.class);
+                Intent intent = new Intent(getApplicationContext(), deathending3.class);
                 intent.putExtra("currHP", HP);
                 startActivity(intent);
             }
@@ -54,31 +54,30 @@ public class MainPage4_button2_2 extends Activity {
         tv_mainpage4_2_2 = findViewById(R.id.tv_mainpage4_2_2);
 
         tv_mainpage4_2_2.setText("지금 당장 쓸 곳이 없다. 다시 군인이 오길 바라던 "+name+"은 아무도 찾지 않는 독방에서" +
-                                    " 뜬눈으로 새벽을 보낸다. 새벽 두 시, "+name+"은 독방에서 수용소를 향한 폭격에 의해 사망한다. " +
-                                    "(hp 다 깎이게 하기, 성급하게 결정하지 마세요, 죽음 엔딩 1)");
+                " 뜬눈으로 새벽을 보낸다. 새벽 두 시, "+name+"은 독방에서 수용소를 향한 폭격에 의해 사망한다. ");
 
     }
-//    @Override
-//    public void onBackPressed() {
-//        AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);
-//        alert_ex.setMessage("앱을 닫으시겠습니까?");
-//
-//        alert_ex.setNegativeButton("종료", new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialog, int which) {
-//                finishAffinity();
-//            }
-//        });
-//
-//        alert_ex.setPositiveButton("취소", new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialog, int which) {
-//
-//            }
-//        });
-//        AlertDialog alert = alert_ex.create();
-//        alert.show();
-//
-//    }
+    @Override
+    public void onBackPressed() {
+        AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);
+        alert_ex.setMessage("앱을 닫으시겠습니까?");
+
+        alert_ex.setNegativeButton("종료", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                finishAffinity();
+            }
+        });
+
+        alert_ex.setPositiveButton("취소", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+            }
+        });
+        AlertDialog alert = alert_ex.create();
+        alert.show();
+
+    }
 
 }

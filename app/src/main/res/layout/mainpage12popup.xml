@@ -5,8 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="@drawable/main12"
-    tools:context=".MainPage12_2">
+    android:background="@drawable/main12">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -35,7 +34,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="06/26"
+            android:text="06/19"
             android:textStyle="bold"
             android:textSize="20sp"
             android:textColor="@color/black"

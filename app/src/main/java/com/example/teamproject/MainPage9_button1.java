@@ -43,7 +43,7 @@ public class MainPage9_button1 extends Activity {
         btn_sub = findViewById(R.id.btn1);
         textView = findViewById(R.id.text1);
         textView.setText("군화 발자국 소리를 들으며 "+ name+"은 조심스레 왼쪽을 향해 몸을 꺾어 들어간다. 아, X됐다. " +
-                "고위 간부로 보이는 군인과 눈이 마주친다. " +name+"은 길을 모르는 곳에서 반대 방향으로 마구 달린다. (hp 깎임)");
+                "고위 간부로 보이는 군인과 눈이 마주친다. " +name+"은 길을 모르는 곳에서 반대 방향으로 마구 달린다.");
 
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,27 +56,27 @@ public class MainPage9_button1 extends Activity {
             }
         });
     }
-//    @Override
-//    public void onBackPressed() {
-//        AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);
-//        alert_ex.setMessage("앱을 닫으시겠습니까?");
-//
-//        alert_ex.setNegativeButton("종료", new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialog, int which) {
-//                finishAffinity();
-//            }
-//        });
-//
-//        alert_ex.setPositiveButton("취소", new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialog, int which) {
-//
-//            }
-//        });
-//        AlertDialog alert = alert_ex.create();
-//        alert.show();
-//
-//    }
+    @Override
+    public void onBackPressed() {
+        AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);
+        alert_ex.setMessage("앱을 닫으시겠습니까?");
+
+        alert_ex.setNegativeButton("종료", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                finishAffinity();
+            }
+        });
+
+        alert_ex.setPositiveButton("취소", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+            }
+        });
+        AlertDialog alert = alert_ex.create();
+        alert.show();
+
+    }
 
 }

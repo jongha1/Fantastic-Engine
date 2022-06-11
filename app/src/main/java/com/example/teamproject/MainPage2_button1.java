@@ -51,7 +51,7 @@ public class MainPage2_button1 extends Activity {
         textView.setText("소란스러움에 반란군이 쇠창살을 총으로 두들겨 친다. 조용히 해. " +
                 "쇠창살 사이로 들이밀어 말하던 늙은 남자를 쏘아 죽인다. 얼굴이 하얗게 질린 "+name+"은 반란군과 눈을 마주친다. " +
                 "욕을 지껄이던 반란군은 이름을 거칠게 잡아 밖으로 끌어낸다. 속으로 욕을 짓씹고 반항하던 " +
-                name+"을 반란군이 두들겨 팬다. (hp 깎이는 행동)");
+                name+"을 반란군이 두들겨 팬다.");
         btn_sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -63,27 +63,27 @@ public class MainPage2_button1 extends Activity {
             }
         });
     }
-//    @Override
-//    public void onBackPressed() {
-//        AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);
-//        alert_ex.setMessage("앱을 닫으시겠습니까?");
-//
-//        alert_ex.setNegativeButton("종료", new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialog, int which) {
-//                finishAffinity();
-//            }
-//        });
-//
-//        alert_ex.setPositiveButton("취소", new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialog, int which) {
-//
-//            }
-//        });
-//        AlertDialog alert = alert_ex.create();
-//        alert.show();
-//
-//    }
+    @Override
+    public void onBackPressed() {
+        AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);
+        alert_ex.setMessage("앱을 닫으시겠습니까?");
+
+        alert_ex.setNegativeButton("종료", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                finishAffinity();
+            }
+        });
+
+        alert_ex.setPositiveButton("취소", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+            }
+        });
+        AlertDialog alert = alert_ex.create();
+        alert.show();
+
+    }
 
 }

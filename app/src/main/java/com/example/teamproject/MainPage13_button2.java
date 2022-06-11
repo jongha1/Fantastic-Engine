@@ -1,6 +1,8 @@
 package com.example.teamproject;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -35,7 +37,7 @@ public class MainPage13_button2 extends Activity {
         btn_sub = findViewById(R.id.btn1);
         textView = findViewById(R.id.text1);
         textView.setText(name+"은 재빠르게 문을 열고 나가 뛴다. 그를 재빠르게 쫓는 군인 때문에 확인할 시간은 없다." +
-                         "어둠 속에서 핸드폰이 한번 진동한다. (진동) 그를 재빠르게 쫓는 군인 때문에 확인할 시간은 없다."
+                         "어둠 속에서 핸드폰이 한번 진동한다. 그를 재빠르게 쫓는 군인 때문에 확인할 시간은 없다."
                          +name+ "은 오직 앞으로 숨이 차 죽을 때까지 뛴다. 어둠 속에서 지프가 보인다.");
 
         btn_sub.setOnClickListener(new View.OnClickListener() {
@@ -61,27 +63,27 @@ public class MainPage13_button2 extends Activity {
             }
         });
     }
-//    @Override
-//    public void onBackPressed() {
-//        AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);
-//        alert_ex.setMessage("앱을 닫으시겠습니까?");
-//
-//        alert_ex.setNegativeButton("종료", new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialog, int which) {
-//                finishAffinity();
-//            }
-//        });
-//
-//        alert_ex.setPositiveButton("취소", new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialog, int which) {
-//
-//            }
-//        });
-//        AlertDialog alert = alert_ex.create();
-//        alert.show();
-//
-//    }
+    @Override
+    public void onBackPressed() {
+        AlertDialog.Builder alert_ex = new AlertDialog.Builder(this);
+        alert_ex.setMessage("앱을 닫으시겠습니까?");
+
+        alert_ex.setNegativeButton("종료", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                finishAffinity();
+            }
+        });
+
+        alert_ex.setPositiveButton("취소", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+            }
+        });
+        AlertDialog alert = alert_ex.create();
+        alert.show();
+
+    }
 
 }

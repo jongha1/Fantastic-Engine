@@ -6,7 +6,7 @@
     android:background="#A1A1A1">
 
     <ProgressBar
-        android:id="@+id/progressBar40"
+        android:id="@+id/progressBar37"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
