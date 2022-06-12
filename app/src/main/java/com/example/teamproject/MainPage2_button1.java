@@ -15,12 +15,16 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
 
+import java.util.Random;
+
 public class MainPage2_button1 extends Activity {
 
     ImageButton btn_sub;
     //
     private ProgressBar progress;
     int HP;
+    Random rd = new Random();
+    int[] rdNum = {20, 30, 40};
     //
     String name = "";
     TextView textView;
@@ -40,7 +44,7 @@ public class MainPage2_button1 extends Activity {
         vibrator.vibrate(500);
         //
 
-        HP -= 30;
+        HP -= rdNum[rd.nextInt(2)];
         progress = (ProgressBar)findViewById(R.id.progressBar3);
         progress.setProgress(HP);
         Intent intent = new Intent(getApplicationContext(), MainPage2_buttons.class);

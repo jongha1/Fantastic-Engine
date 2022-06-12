@@ -12,12 +12,16 @@ import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import java.util.Random;
+
 public class MainPage13_button1 extends Activity {
 
     ImageButton btn_sub;
     //
     private ProgressBar progress;
     int HP;
+    Random rd = new Random();
+    int[] rdNum = {20, 30, 40};
     //
     TextView textView;
     String name = "";
@@ -32,7 +36,7 @@ public class MainPage13_button1 extends Activity {
         Intent HPintent = getIntent();  // intent를 가져오는 형식으로 초기화
         HP = HPintent.getIntExtra("currHP",100);
 
-        HP -= 30;
+        HP -= rdNum[rd.nextInt(2)];
         progress = findViewById(R.id.progressBar67);
         progress.setProgress(HP);
         Intent intent = new Intent(getApplicationContext(), MainPage13_buttons.class);

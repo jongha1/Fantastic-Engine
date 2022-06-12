@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ProgressBar;
+import java.util.Random;
 
 import androidx.appcompat.app.AlertDialog;
 
@@ -18,6 +19,9 @@ public class MainPage1_button1 extends Activity {
     ImageButton btn_sub;
     private ProgressBar mainpageBtn1Bar;
     int HP;
+
+    Random rd = new Random();
+    int[] rdNum = {20, 30, 40};
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -29,8 +33,7 @@ public class MainPage1_button1 extends Activity {
 
         Intent HPintent = getIntent();
         HP = HPintent.getIntExtra("currHP",100);
-
-        HP -= 20;
+        HP -= rdNum[rd.nextInt(2)];
         mainpageBtn1Bar = (ProgressBar)findViewById(R.id.main1btn1Progressbar);
         mainpageBtn1Bar.setProgress(HP);
 

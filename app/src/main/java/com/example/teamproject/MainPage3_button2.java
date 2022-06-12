@@ -11,6 +11,8 @@ import android.widget.ProgressBar;
 
 import androidx.appcompat.app.AlertDialog;
 
+import java.util.Random;
+
 public class  MainPage3_button2 extends Activity {
 
     ImageButton btn_sub1;
@@ -19,6 +21,8 @@ public class  MainPage3_button2 extends Activity {
 
     private ProgressBar progress;
     int HP;
+    Random rd = new Random();
+    int[] rdNum = {20, 30, 40};
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -28,7 +32,7 @@ public class  MainPage3_button2 extends Activity {
         Intent HPintent = getIntent();  // intent를 가져오는 형식으로 초기화
         HP = HPintent.getIntExtra("currHP",100);
 
-        HP -= 30;
+        HP -= rdNum[rd.nextInt(2)];
         progress = (ProgressBar)findViewById(R.id.progressBar9);
         progress.setProgress(HP);
 
