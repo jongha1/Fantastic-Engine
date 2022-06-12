@@ -24,6 +24,7 @@
         <activity
             android:name=".NamePopup"
             android:theme="@android:style/Theme.Holo.Dialog" />
+        <activity android:name=".deathending0"/>
         <activity android:name=".deathending1"/>
         <activity android:name=".deathending3"/>
         <activity android:name=".deathending6"/>

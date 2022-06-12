@@ -10,11 +10,15 @@ import android.widget.ImageButton;
 public class deathending1 extends Activity {
 
     ImageButton btn_sub;
+    int HP;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.deathending1);
+        Intent HPintent = getIntent();  // intent를 가져오는 형식으로 초기화
+        HP = HPintent.getIntExtra("currHP",100);
+        HP = 50;
 
         btn_sub = findViewById(R.id.btn1);
 
@@ -22,6 +26,7 @@ public class deathending1 extends Activity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), MainPage3.class);
+                intent.putExtra("currHP",HP);
                 startActivity(intent);
             }
         });

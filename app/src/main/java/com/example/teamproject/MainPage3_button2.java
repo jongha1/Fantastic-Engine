@@ -55,22 +55,32 @@ public class  MainPage3_button2 extends Activity {
         btn_sub2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), MainPage3_button2_2.class);
-                //
-                intent.putExtra("currHP",HP);
-                //
-                startActivity(intent);
+                if(HP <= 0){
+                    Intent intent = new Intent(getApplicationContext(), deathending1.class);
+                    intent.putExtra("currHP",HP);
+                    startActivity(intent);
+                }
+                else {
+                    Intent intent = new Intent(getApplicationContext(), MainPage3_button2_2.class);
+                    intent.putExtra("currHP", HP);
+                    startActivity(intent);
+                }
             }
         });
 
         btn_sub3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), MainPage3_button2_3.class);
-                //
-                intent.putExtra("currHP",HP);
-                //
-                startActivity(intent);
+                if(HP <= 0){
+                    Intent intent = new Intent(getApplicationContext(), deathending1.class);
+                    intent.putExtra("currHP",HP);
+                    startActivity(intent);
+                }
+                else {
+                    Intent intent = new Intent(getApplicationContext(), MainPage3_button2_3.class);
+                    intent.putExtra("currHP", HP);
+                    startActivity(intent);
+                }
             }
         });
     }
